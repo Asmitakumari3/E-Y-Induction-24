@@ -1,0 +1,120 @@
+	1. 10+ developers are working on a same project on same module
+		-- developers are located at differnt locations
+		--eg login page
+			2 developers are working UI
+			2 on database
+			2 on testing
+			2 on connectivity
+			2 are programming with C#
+
+		they all neeed to share the code
+
+		So how do they share the code ???
+			Email ??
+
+	2. Versioning of code - Version Management System
+
+		This is something which as a problem was faced by founder of Linux System
+
+		Thus he founded a system called Version Management Control for internal use
+		Later did architectural changes and made it online for testing and then finally open to public
+			as an open source
+
+		recently it was been purchased by Microsoft and now it has 2 faces
+			-- Github public
+			-- Github enterprise (paid version) - this is private on for teams and org
+
+
+
+		Repository Management Systems
+		- GIThub
+		- Microsoft Team Foundation Server (On premises server - in office)
+		- Microsoft Azure Devops (online version of above)
+		- SVN - by open source community 
+		- BitBucket - version control management - respository system 
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+		
+	1. Github desktop for your machine (Windows, mac, linux)
+		2 flavours
+			UI (menu options and buttons, no need to remember any commands, this is for windows 				only)
+			CLI based - Command Line Interface - commands
+
+	2. Create a new Github account
+
+	3.  Create a repository / also called as repo on git hub - a blank new 1
+		https://github.com/nikhilshah85/E-Y-Induction-24.git
+
+		repository - A folder which will contain all the files, folders, images, documents etc..
+			repository has branches 	
+				branches are for different modules, teams of project, segegration 
+				eg. for a banking project there will be branches
+					1. accounts (savings acc, current acc, pf acc etc)
+					2. Loan (all the types of loans, their code, etc..)
+					3. Investment 
+	4. we will clone this respository to our local machine 
+		Map the git repo to your local machine
+
+	when you clone the repo, will map both your machine and git repo, from here on you will store, create all the files in this folder
+
+
+	5. Let us move some folders and files inside this newly created repo, and then we will move it to 		git
+	
+	point inside the repo folder from command prompt
+
+	6. git add . (this will add all the changes that you made) 
+
+	7. git commit -m "Add a new folder and a new file"
+
+	8. git push (this will upload all the new files, edited files, deleted files from git repo)
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
