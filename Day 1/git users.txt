@@ -1,0 +1,7 @@
+for the other developer who wants to get all the files and folders on their machine
+
+1. clone the repo
+	git clone https://github.com/nikhilshah85/E-Y-Induction-24.git
+
+2. every time they want to download the changes, they say
+	git pull 
