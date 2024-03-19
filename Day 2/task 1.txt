@@ -1,0 +1,12 @@
+Write a program and label it as "Task 1"
+
+do this with if condition 
+
+read a value from user  (please enter value between 1 and 100 only)
+and print the following message
+	for number between 1 and 10 : say Poor Number
+	for number between 11 and 25 : say Average Number
+	for number between 26 and 50 : say Good Number
+	for number between 51 and 75 : say Very good Number
+	for number between 76 and 100 : say excellent Number
+	for number below 1 or above 100 : say number out of range
