@@ -1,0 +1,13 @@
+
+
+Agile Read:
+
+https://www.javatpoint.com/agile-scrum
+
+
+Git Hub basics
+https://www.youtube.com/watch?v=ufKRYe8ZPaw&pp=ygUVZ2l0aHViIGZvciBkZXZlbG9wZXJz
+
+
+After above video - git hub tricks
+https://www.youtube.com/watch?v=G61j71LoCgQ&pp=ygUVZ2l0aHViIGZvciBkZXZlbG9wZXJz

@@ -1,0 +1,56 @@
+1. C#
+2. .Net Framework vs .Net core
+---------------------------------------------------------------------
+
+	C - just 32 keywords
+	C++ - with OOPS support and much better way of programming
+	C++ - C#
+
+-------------
+		.Net framework 
+			Framework = BCL (Base class library) + CLR (Common Language Runtime) + Tools (SDK)
+
+		For development you need - .net framework SDK(software development kit)
+		For customers - .net runtime BCL (Base class library) + CLR (Common Language Runtime)
+			
+			Common Language runtime is responsible for running your application 
+				Security
+				Threads
+				Garbage collection 
+				JIT - Just in time compilation 
+				Code Conversion 
+				+++ +++ +++
+				C - C++ .exe will contain - binary code - which will directly execute on ur 					machine
+				but in .net
+			When you compile a .net code - .exe contains MSIL code 
+				(Microsoft intermediate language code) - like Byte code in Java
+			when you run the application, code needs to be converted into binary again as per OS
+				JIT will do it at runtime
+				
+
+			.Net framework was mostly for windows OS (2002 till 2016)
+			
+
+		.Net core is now open source and is availble for all the OS
+		Develop anywhere - use anywhere
+
+			improvised further - support to develop cloud based application 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+
+					
+	

@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\bin\Debug\net8.0\first_CSharp_app.exe
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\bin\Debug\net8.0\first_CSharp_app.deps.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\bin\Debug\net8.0\first_CSharp_app.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\bin\Debug\net8.0\first_CSharp_app.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\bin\Debug\net8.0\first_CSharp_app.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\obj\Debug\net8.0\first_CSharp_app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\obj\Debug\net8.0\first_CSharp_app.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\obj\Debug\net8.0\first_CSharp_app.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\obj\Debug\net8.0\first_CSharp_app.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\obj\Debug\net8.0\first_CSharp_app.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\obj\Debug\net8.0\first_CSharp_app.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\obj\Debug\net8.0\refint\first_CSharp_app.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\obj\Debug\net8.0\first_CSharp_app.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\obj\Debug\net8.0\first_CSharp_app.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\first_CSharp_app\first_CSharp_app\obj\Debug\net8.0\ref\first_CSharp_app.dll

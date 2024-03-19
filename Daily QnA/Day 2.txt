@@ -1,0 +1,7 @@
+1. What is Agile ?
+2. Some methodologies used in Agile?
+3. Some advantages on Agile Scrum and some drawbacks
+4. Who is a Scrummaster and what are his/her responsibilities
+5. what is github 
+6. What is a repository
+7. How do you clone a repo 
