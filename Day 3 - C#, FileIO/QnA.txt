@@ -1,0 +1,17 @@
+1. What is the difference between .net framework and .net core
+	.net framework - 4.5 - 5.0
+	.net core - 8- this is free
+2. What are Premitive data types ?
+3. What differnt ways for decision makeing in C# ?
+4. Can we use switch case inside if condition ?
+5. Which operator is used for type casting - convert
+6. how to put single line comment //
+7. Short cut to build application
+
+----------------------------------------------------------------------
+Comment -  C + K + C
+Uncomment - C + K + U
+build - C + Shift + B
+Run the app 
+	(debug the application )With Debug - F5
+	Without debug - C + F5 

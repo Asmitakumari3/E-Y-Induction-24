@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\bin\Debug\net7.0\CShart_Fundamentals.exe
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\bin\Debug\net7.0\CShart_Fundamentals.deps.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\bin\Debug\net7.0\CShart_Fundamentals.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\bin\Debug\net7.0\CShart_Fundamentals.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\bin\Debug\net7.0\CShart_Fundamentals.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\obj\Debug\net7.0\CShart_Fundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\obj\Debug\net7.0\CShart_Fundamentals.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\obj\Debug\net7.0\CShart_Fundamentals.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\obj\Debug\net7.0\CShart_Fundamentals.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\obj\Debug\net7.0\CShart_Fundamentals.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\obj\Debug\net7.0\CShart_Fundamentals.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\obj\Debug\net7.0\refint\CShart_Fundamentals.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\obj\Debug\net7.0\CShart_Fundamentals.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\obj\Debug\net7.0\CShart_Fundamentals.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 3\CShart_Fundamentals\CShart_Fundamentals\obj\Debug\net7.0\ref\CShart_Fundamentals.dll

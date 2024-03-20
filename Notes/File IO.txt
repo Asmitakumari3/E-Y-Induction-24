@@ -1,0 +1,11 @@
+		Topic Name : FileIO (File Input output)
+
+			We need to use a namespace/library/package
+		useing System.IO on top (this will make available all the methods, properties related
+						to file input and output)
+
+			We have 3 types (class)
+
+			FileStream (this is used to create, open, override the file)
+			FileWriter (this will allow you to write to a file)
+			FileReader (this will allow you to read from a file)

@@ -1,0 +1,106 @@
+1. When you start the applicaiton - Display "~~~~Welcome to Employee Management System~~~~"
+2. Display 
+	Press Enter to Login
+	Console.ReadLine();
+
+3. On Enter
+	Display
+		1.Employee
+		2.Admin
+	When user selects 1 - display welcome employee
+	When user selects 2 - display welcome Admin
+
+-----------------------
+	When user chooses 1. ask below details
+		A. UserName
+		B. Password
+		if username is (your own name and password is yourname@1234)
+
+		Display Login Successful, Welcome yourName
+		1. Check Employee Details 
+		2. Apply Leave
+		3. Raise A request to Manager
+		4. Submit Bill
+		5. Fill Daily worksheet
+		6. Exit
+
+			Display Some message on chooseing any option 
+			Press Enter to continue, (this will display the menu again to the user)
+			When user says Exit, display thank you for useing EMS, see you again
+
+		
+	Else display, invalid credentials
+
+
+	When user chooses 2, ask below details
+		A. UserName
+		B. Password
+		if username is (Admin and password is E&Y@987654321)
+
+		Display Login Successful, Welcome Admin
+		1. Add New Employee
+		2. View Employee Details
+		3. Delete Employee
+		4. Approve Leaves
+		5. Approve Voucher
+		6. Announcement
+		7. Exit
+
+		Display Some message on chooseing any option 
+		Press Enter to continue, (this will display the menu again to the user)
+
+		When user says Exit, display thank you for useing EMS, see you again
+
+
+
+
+		Add 1 option to both the menus (Employee and Admin) Exit
+		add the program into while loop, Application will keep on going, until and unless user says
+		Exit
+		
+
+
+
+		Storage Options for data
+			1. InMemory - On RAM - using Collections - Array, ArrayList, List, Dictionaty etc.
+			2. In Files - (.txt, .xml, .json, .excel etc) - suitable for small applications
+			3. Database - Very large application, very fast but comes with a cost
+
+
+
+			How can we write data to files, create files, override file,read data from files		from .net application
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
