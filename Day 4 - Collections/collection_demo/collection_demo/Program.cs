@@ -237,38 +237,39 @@ name = "Kenny";
 //}
 #endregion
 
-Dictionary<int,string> employeeList = new Dictionary<int,string>();
-int autoNumberKey = 0;
+#region Dictionary Demo
+//Dictionary<int,string> employeeList = new Dictionary<int,string>();
+//int autoNumberKey = 0;
 
-bool continueTakeingValue = true;
-while (continueTakeingValue)
-{
-    Console.WriteLine("Enter Employee Name");
-    string employeeName = Console.ReadLine();
-    Console.WriteLine("Enter Employee Designation HR/Developer/DBA only");
-    string employeeDesignation = Console.ReadLine();
-    if (employeeName == "")
-    {
-        continueTakeingValue = false;
-    }
-    else
-    {
-        autoNumberKey++;
-        employeeList.Add(autoNumberKey, employeeName);
-    }
-}
-Console.Clear();
-Console.WriteLine("Total Employees " + employeeList.Count);
-Console.WriteLine("Press Enter to view the list");
-Console.ReadLine();
+//bool continueTakeingValue = true;
+//while (continueTakeingValue)
+//{
+//    Console.WriteLine("Enter Employee Name");
+//    string employeeName = Console.ReadLine();
+//    Console.WriteLine("Enter Employee Designation HR/Developer/DBA only");
+//    string employeeDesignation = Console.ReadLine();
+//    if (employeeName == "")
+//    {
+//        continueTakeingValue = false;
+//    }
+//    else
+//    {
+//        autoNumberKey++;
+//        employeeList.Add(autoNumberKey, employeeName);
+//    }
+//}
+//Console.Clear();
+//Console.WriteLine("Total Employees " + employeeList.Count);
+//Console.WriteLine("Press Enter to view the list");
+//Console.ReadLine();
 
-foreach (var item in employeeList)
-{
-    Console.WriteLine("Employee Number : " + item.Key);
-    Console.WriteLine("Employee Name   : " + item.Value);
-    Console.WriteLine("---------------------------------------------");
-}
-
+//foreach (var item in employeeList)
+//{
+//    Console.WriteLine("Employee Number : " + item.Key);
+//    Console.WriteLine("Employee Name   : " + item.Value);
+//    Console.WriteLine("---------------------------------------------");
+//}
+#endregion
 
 
 

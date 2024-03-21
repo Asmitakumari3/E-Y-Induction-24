@@ -1,0 +1,30 @@
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\bin\Debug\net7.0\CSharp_basics.exe
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\bin\Debug\net7.0\CSharp_basics.deps.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\bin\Debug\net7.0\CSharp_basics.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\bin\Debug\net7.0\CSharp_basics.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\bin\Debug\net7.0\CSharp_basics.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\obj\Debug\net7.0\refint\CSharp_basics.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\CSharp_basics\CSharp_basics\obj\Debug\net7.0\ref\CSharp_basics.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\bin\Debug\net7.0\CSharp_basics.exe
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\bin\Debug\net7.0\CSharp_basics.deps.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\bin\Debug\net7.0\CSharp_basics.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\bin\Debug\net7.0\CSharp_basics.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\bin\Debug\net7.0\CSharp_basics.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\obj\Debug\net7.0\refint\CSharp_basics.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\obj\Debug\net7.0\CSharp_basics.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2 - C#\CSharp_basics\CSharp_basics\obj\Debug\net7.0\ref\CSharp_basics.dll

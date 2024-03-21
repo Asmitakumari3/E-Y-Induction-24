@@ -1,0 +1,14 @@
+1. QnA
+2. Review and revision (For a test tomorrow)
+3. Post assigignment read
+
+	1. C# - Fundamentals - https://www.w3schools.com/cs/index.php
+	
+
+	2. About stringbuilder (it is a class, we have studied about the class yet, it is a OOPS 			thing) - we will dig more into it when we begin OOPS 
+		https://www.geeksforgeeks.org/stringbuilder-in-c-sharp/
+
+	3. GoTo Statement - we do not use it anymore, but you should still have awareness about the same
+		Agile
+		Git
+		C# from last 3 days
