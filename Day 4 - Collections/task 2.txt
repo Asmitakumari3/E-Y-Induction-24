@@ -1,0 +1,13 @@
+In the same program,
+take the designation of employee
+
+once user is done entering all the values
+
+in the end show the summary
+
+
+Total Employees :
+Total HR :
+Total Developer:
+Total DBA :
+Others :
