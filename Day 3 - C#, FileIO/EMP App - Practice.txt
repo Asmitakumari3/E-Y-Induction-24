@@ -76,7 +76,21 @@
 
 
 
+		Post Break in the same emp App.
 
+
+		For Login, create 2 files
+		1. EmployeeCred.txt - this will have yourName and your Password
+			read from here and authentnticate
+		2. AdminCred.txt - this will have Admin as userName Admin@E&Y as password
+		
+		save both the files in C:\\
+
+		after login (program for Admin, for add a new employee, ask
+		Emp Name, Emp LastName, Emp City, Emp Designation, Emp Salary, Emp Available Leaves
+
+		ask this file 5 information and store it in EmpName.txt File
+		create 5 employees
 				
 
 

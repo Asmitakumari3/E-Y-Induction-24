@@ -1,0 +1,14 @@
+Create an Array guestList (take the size dynamically from the user like in the last example)
+
+	for ask them - guestName and Gender (we do not want to store gender information)
+
+		after takeing all the values from user
+
+		Print below summary
+
+	1. Total Guest:
+	2. Male Guest :
+	3. Female Guest :
+	4. Guest List:
+		Mr.Name (for male guest)
+		Mrs.Name (For female guest)
