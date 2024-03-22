@@ -36,9 +36,9 @@ Create a new Console App : NewBankingSystem
 		In Investment Folder, add below class
 			FD
 				add methods 
-					  OpenFD
-					  CloseFD
-					  GetFDRates
+					  OpenFD - return a string - parameter - amount
+					  CloseFD - return a string - parameter - FdID
+					  GetFDRates - return a double - some rate (eg.6.5 or 7.1...)
 			Equity
 				add methods
 			BuyStock (take parameter, stockId, qty) - return string - StockBuy Successfull
