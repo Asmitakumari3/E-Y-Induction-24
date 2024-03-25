@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\EmployeeManagement.exe
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\EmployeeManagement.deps.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\EmployeeManagement.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\EmployeeManagement.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\bin\Debug\net7.0\EmployeeManagement.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\obj\Debug\net7.0\EmployeeManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\obj\Debug\net7.0\EmployeeManagement.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\obj\Debug\net7.0\EmployeeManagement.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\obj\Debug\net7.0\EmployeeManagement.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\obj\Debug\net7.0\EmployeeManagement.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\obj\Debug\net7.0\EmployeeManagement.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\obj\Debug\net7.0\refint\EmployeeManagement.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\obj\Debug\net7.0\EmployeeManagement.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\obj\Debug\net7.0\EmployeeManagement.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\EmployeeManagement\EmployeeManagement\obj\Debug\net7.0\ref\EmployeeManagement.dll

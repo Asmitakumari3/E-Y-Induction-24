@@ -134,6 +134,14 @@
 			string result = myFD.WhoAmI();
 			console.writeline(result);
 			
+===============================================================================
+	Enum
+	Default parameter
+	Named Parameter
+	Param Array
+	Properties - this are getter and setter (get the value from variable / set the value into a 				variable)
+		They are like a coverbox to variables
+
 
 
 

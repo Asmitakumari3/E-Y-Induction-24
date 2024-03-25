@@ -1,0 +1,33 @@
+Task :
+	1. Create a new project BankingAPP_OOPS
+	2. Add a class, BankAccount
+		add properties:
+				accountNo
+				accountFirstName		
+				accountLastName
+				accountBalance
+				accountIsActive
+		     Methods:
+				withdraw(int amt)
+				deposit(int amt)
+		     Constructor: parameterised constructor to take all the values which will be
+				needed to create the object
+
+	3. Add 3 classes and inherit the same from BankAccount class
+		Savings
+		Current
+		PF
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
