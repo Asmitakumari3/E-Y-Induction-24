@@ -1,0 +1,226 @@
+1. OOPS - Abstraction, Encapsulation, Inheritance and Polymorphism
+		Exception Handling
+		SOLID Principles
+
+
+we start this at 4 (4 to 5)
+2. a Milestone test - this is code based - 2 questions - 1 hour - online - it will have compiler and easy to take this test - 1 hour
+
+take rest - 15 mins - you can discuss the questions with me 
+
+5:15
+3. MCQ test - 20 questions - 30 mins
+
+------------------------------------------------------------------------------------------------
+
+	1. Abstraction - 
+	2. Encapsulation - Properties and functions,constructor, events -  wrap the logic in a wrapper
+								which makes it easy for users to use but they
+								do not understand the logic or code
+	3. Inheritance - re-use
+	4. Polymorphism - Same signature, differnt behaviour
+			public int Add(int num1, double num2)
+			{
+				return num1 + num2;
+			}
+
+			public int Add(double num1, int num3)
+
+			public int Add(int num1, int num2, int num3)
+			{
+				return num1 + num2 + num3;
+			}
+
+		--This is called overloading - when you compile this code, compiler will generate 2 methods with a reference for an object -- some books - authors - blogs calls it as Static polymprphism
+
+			Bjarne Stroupstus -- gave us C++ and OOPS way to write programms
+				He says that Polymorphism is always at runtime and in his book static polymprphism is not polymprphism, but it is a feature of compiler called - name Mangling
+
+	So what is runtime polymorphism, this can exist only when you have Inheritance, between parent and child class
+		Signature of a method remains same but the logic, behaviour is different 
+
+		Signature = return type
+			    Name 
+			    Parameters (total number and sequence)
+
+   ****when signature is different but the name of methods are same - Method overloading / static polymorphism
+   ***when signature is same of same method name - Method overrideing / Runtime polymorphism
+
+		Savings.cs1
+
+			public double Withdraw(int amount)
+			{
+				if(amount > 20000)
+				{
+					throw new Exception("You cannot withdraw more than 20000");
+				}
+			}
+
+
+		current.cs
+
+			
+		public double Withdraw(int amount)
+			{
+				if(amount > 100000)
+				{
+					throw new Exception("You cannot withdraw more than 10000");
+				}
+			}
+
+
+		PF.cs
+		public double Withdraw(int amount)
+			{
+				if(amount > (accBalance * 0.8)
+				{
+				throw new Exception("You cannot withdraw more than " + (accBalance * 0.8 ));
+				}
+			}
+
+
+----------- let us test this
+
+	1. create a new console app - BankingAPP_OOPS
+	2. Add a new class - BankAccount.cs
+	3. Add a property - accBalance
+	4. Add a withdraw method
+	   public double Withdraw(int amount)
+ 	   {
+    		  accBalance = accBalance - amount;
+    		  return accBalance;
+  	   }
+		
+	5. Add 2 class Savings.cs and Current.cs
+	6. Inherit both the classes from BankAccount
+	7. Mark BankAccount as abstract
+	8.  //child classes will inherit all the properties
+ //Methods
+
+ //we have 2 child classes, savings and current
+ // we want to achive different behaviour for Withdraw in both the class
+
+ //Savings can withdraw max, 20000, current can withdraw max 100000
+ //savings can with only from the availabe balance (i.e, if they have 15000 they can withdar max 15k and not 20k)
+
+ //Current account can withdraw max 1 lakh even if they do not have the sufficient balance (they get OD-overdraft facility)
+
+ //to achive this,
+ //we mark Method as Virtual in parent class
+ //and overrides in child class
+
+
+	parent class, BankAccount
+	9.  public virtual double Withdraw(int amount)
+ 	    {
+ 		    accBalance = accBalance - amount;
+		     return accBalance;
+	    }
+	10. child class - savings.cs
+		public override double Withdraw(int amount)
+{
+    if(amount > 20000)
+    {
+        throw new Exception("You can withdraw max 20000 in a transaction");
+    }
+    if(amount > accBalance)
+    {
+        throw new Exception("Insufficent Balance");
+    }
+
+   // accBalance = accBalance - amount;
+   // return accBalance;
+
+    //why to repeat same code which is return in parent - instead
+    return base.Withdraw(amount);
+}
+
+
+	11. child class - current.cs
+	
+	 public override double Withdraw(int amount)
+ {
+     if (amount > 100000) 
+     {
+         throw new Exception("You can withdraw max 100000 in a transaction");
+     }
+     return base.Withdraw(amount);
+ }
+
+
+	12. add a new class - PF
+	13 inherit the same from BankAccount
+	14. we want to have a differnt behaviour for withdraw method for PF
+	   PF account holder can withdraw max 80% of their available blance
+
+		public override doulbe withdraw(int amount)
+		{
+			if(amount > (accBalance * 0.8))
+			{
+			throw new Exception("You can withdraw maximum " + (accBalance * 0.8))
+			}
+			return base.withdraw(amount);
+	
+		}
+	15. In programcs - create a new object of PF 
+		PF pObj = new PF();
+		pObj.accBalance = 10000000;
+		console.writeLine(pObj.Withdraw(300000));  //try different amounts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

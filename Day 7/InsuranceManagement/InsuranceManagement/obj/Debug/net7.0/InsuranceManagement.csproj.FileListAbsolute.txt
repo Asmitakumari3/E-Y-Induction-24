@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\bin\Debug\net7.0\InsuranceManagement.exe
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\bin\Debug\net7.0\InsuranceManagement.deps.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\bin\Debug\net7.0\InsuranceManagement.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\bin\Debug\net7.0\InsuranceManagement.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\bin\Debug\net7.0\InsuranceManagement.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\obj\Debug\net7.0\InsuranceManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\obj\Debug\net7.0\InsuranceManagement.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\obj\Debug\net7.0\InsuranceManagement.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\obj\Debug\net7.0\InsuranceManagement.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\obj\Debug\net7.0\InsuranceManagement.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\obj\Debug\net7.0\InsuranceManagement.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\obj\Debug\net7.0\refint\InsuranceManagement.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\obj\Debug\net7.0\InsuranceManagement.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\obj\Debug\net7.0\InsuranceManagement.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 7\InsuranceManagement\InsuranceManagement\obj\Debug\net7.0\ref\InsuranceManagement.dll

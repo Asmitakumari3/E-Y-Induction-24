@@ -1,0 +1,6 @@
+SOLID Principles
+
+This are the principles which are followed while write the code
+
+Solid are 5 rules - 5 recommendations
+
