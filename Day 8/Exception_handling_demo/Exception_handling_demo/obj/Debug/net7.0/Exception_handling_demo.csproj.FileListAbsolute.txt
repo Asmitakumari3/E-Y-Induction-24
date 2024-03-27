@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\bin\Debug\net7.0\Exception_handling_demo.exe
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\bin\Debug\net7.0\Exception_handling_demo.deps.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\bin\Debug\net7.0\Exception_handling_demo.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\bin\Debug\net7.0\Exception_handling_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\bin\Debug\net7.0\Exception_handling_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\obj\Debug\net7.0\Exception_handling_demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\obj\Debug\net7.0\Exception_handling_demo.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\obj\Debug\net7.0\Exception_handling_demo.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\obj\Debug\net7.0\Exception_handling_demo.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\obj\Debug\net7.0\Exception_handling_demo.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\obj\Debug\net7.0\Exception_handling_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\obj\Debug\net7.0\refint\Exception_handling_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\obj\Debug\net7.0\Exception_handling_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\obj\Debug\net7.0\Exception_handling_demo.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Exception_handling_demo\Exception_handling_demo\obj\Debug\net7.0\ref\Exception_handling_demo.dll

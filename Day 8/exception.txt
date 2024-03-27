@@ -1,0 +1,18 @@
+add a new class in the same app 
+	BankAccount
+
+		have a property - accountBalance 
+		take value for this in a constructor
+
+		add deposit method
+		add withdraw method
+
+in program.cs comment the old code
+
+	create an object of BankAccount
+	call deposit method
+
+		when user is dposit the funds - they enter negative value, we want to avoid that
+		give them a message accordingly
+
+		when user tries to withdraw more than the available balance we will not process the request, give appropriate message

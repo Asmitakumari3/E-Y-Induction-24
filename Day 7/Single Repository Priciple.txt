@@ -1,0 +1,75 @@
+Single Repository Priciple
+
+	This is a class where you do CRUD operations
+
+	There is a design pattern we will learn - Repository Design pattern 
+
+
+	Public class Employee -- calculation, validation, formatting, printing etc...
+	Public class EmployeeRepository -- data management (Create new, update, delete, save)
+
+		will you have to create 2 objects ??
+
+
+	Thus D (dependency injection - dependency inversion will enable you to configure)
+	+ interface
+			
+
+
+
+
+
+
+(Parent class / superclass)
+public class BankAccount
+{
+	public virtual double withdraw(int amt)
+	{
+
+		///some 10 lines of code
+		return accBalance;
+	}
+}
+
+---------------------------------------------------------------------------------
+(child class / subsclass)
+public class Savings : BankAccount
+{
+	public override double withdraw(int amt)
+	{
+		///some 10 lines of code
+		return accBalance;
+	}
+}
+---------------------------------------------------------------------------------
+public class Salary : Savings
+{
+	public override double withdraw(int amt)
+	{
+
+		///some 10 lines of code
+		return accBalance;
+	}
+}
+
+
+
+when you create a new object of Salary - it should not disturb any data, method, event 
+		of Savings class or BankAccount class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

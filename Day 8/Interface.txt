@@ -1,0 +1,36 @@
+		Interface 
+
+1. Interface is a contract
+	Interface will have properties and methods declaration and it will be implemented by classes, whichever class will implement it, will need to have all the methods defination 
+
+
+	interface IEmployee
+	{
+		string GetEmployeeDetails(int empNo);
+		double CalculateBonus(double currentSal, double IntrestRate);
+		void UpdateEmpInfo(int empNo, Employee newDetails);
+	}
+
+	interface IOrgranizationEvents
+	{
+		void MakeAnnouncement(string eventName, datetime eventdate);
+		void cancelEvent(string eventName);
+		int applyPresenceForEvent(int empNo);
+	}
+
+	class Employee : IEmployee, IOrgranizationEvents
+	{
+		//all the methods needs to be present,
+		string GetEmployeeDetails(int empNo)
+		{
+			//code
+		}
+		double CalculateBonus(double currentSal, double IntrestRate)
+		{
+			//code
+		}
+		void UpdateEmpInfo(int empNo, Employee newDetails)
+		{ //code
+		}		
+		//you need to implement all the methods from IOrgranizationEvents
+	}

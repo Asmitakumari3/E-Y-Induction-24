@@ -1,0 +1,26 @@
+You should not create object of 1 class in another class
+
+		public class HR
+		{
+			Manager mgr = new Manager(); //this will create problem in memory
+						     //if you do not release this object from 							     //	memory
+
+							//performance issues
+							//memory leak
+							//over utilization of memory
+							//heavy object just lying on RAM when 
+							 //they are not even used
+		}
+
+		instead we should leave this task on Runtime - .net core
+				.net core will create the object and destroy the object
+				once use is been done
+			
+			This is feature of runtime which is now availabe in every framework
+			.net, Java, angular, react, node etcc...
+
+			Developer should not create any object, leave it onto the runtime
+			you will just have to program bit differently
+			(we call this feature as Inversion control / Dependency Injection)
+
+
