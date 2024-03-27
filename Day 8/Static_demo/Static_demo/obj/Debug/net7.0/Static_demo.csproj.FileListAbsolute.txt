@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\bin\Debug\net7.0\Static_demo.exe
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\bin\Debug\net7.0\Static_demo.deps.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\bin\Debug\net7.0\Static_demo.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\bin\Debug\net7.0\Static_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\bin\Debug\net7.0\Static_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\obj\Debug\net7.0\Static_demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\obj\Debug\net7.0\Static_demo.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\obj\Debug\net7.0\Static_demo.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\obj\Debug\net7.0\Static_demo.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\obj\Debug\net7.0\Static_demo.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\obj\Debug\net7.0\Static_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\obj\Debug\net7.0\refint\Static_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\obj\Debug\net7.0\Static_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\obj\Debug\net7.0\Static_demo.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Static_demo\Static_demo\obj\Debug\net7.0\ref\Static_demo.dll

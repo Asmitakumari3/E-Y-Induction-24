@@ -1,0 +1,42 @@
+1. Create a new application - Static Example
+2. Create a new class - EmployeeInfo
+3. Create properties
+	empNo, empName, empDesignation
+4. Create a constructor to accept all this 3 values
+5. create 3 objects of EmployeeInfo with all the values been taken from user
+
+
+	in the same program, empno should not just be just number, 
+		it should be First 2 characters of designation and num
+
+		HR101
+		MA102
+		SA103
+		MA104
+		DE105
+		AC106
+
+------------------------------------------------------------------------------------
+
+
+We now have 3 subclasses, and for empNo we have different sequence
+
+	HR empNo - should be HR101, HR102, HR103.....
+	Manager empNo - should be MA501, MA502, MA503 .......
+	Developer empNo - should be DEV901, DEV902,DEV903 
+
+
+
+	Thus add 3 classes, HR, Manager, Developer
+		inherit all of them from EmployeeInfo
+		mark EmployeeInfo as Abstract
+
+
+
+
+
+
+
+
+
+

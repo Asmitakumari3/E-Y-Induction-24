@@ -1,0 +1,23 @@
+
+
+			OOPS - C# - 2nd Stage of C# programming on .net core
+			1. Conditional programming - if, if else, switch 
+			2. Loops - while, for, foreach loop
+			3. Collections
+				Array, ArrayList, List, Dictionary
+			4. default paremeters, named parameters, enums
+			5. function overloading
+			6. FILE.IO 
+				Filestream, StreamReader, StreamWriter
+			7. OOPS (Classes, properties, methods, constructors, namespaces)
+				Abstraction
+				Encapsulation
+				Inheritance
+				Polymorphism
+					abstract class
+					sealed class
+					static (variables, properties, method)
+			8. Interfaces
+			9. Exception handling
+		
+		we worked on small projects for bankingDomain, employee Domain, InsuranceDomain
