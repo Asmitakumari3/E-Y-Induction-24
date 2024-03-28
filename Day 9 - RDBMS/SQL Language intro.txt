@@ -1,0 +1,111 @@
+
+
+			RDBMS - is a way to manage large data
+				Manage 
+					Create new data
+					Update
+					Delete
+					Filter
+					Sort
+					Calculate
+					Format
+					Secure
+					etc.......
+			Thus we need a software to enable us to work in a robust way
+				It should be fast, consistent, reliable, secure, 
+
+				Thus there are different vendors which allows us to work with the same
+				Microsoft - SQL Server (sql server express, open source)
+				Oracle - OracleDB
+				MySql - Open source - IBM 
+				DB2 - Open source
+
+
+				They provide different types of Engines
+					OLTP - online transaction processing - RDBMS
+					OLAP - For analytical data - which is more than 5-10 or more
+
+
+
+
+
+			OLTP - Database Engine
+				- You use a language SQL - Structured Query Language
+
+
+
+				SQL is a Language used to talk in terms of data
+					it has sublanguages based on the opetation you want to do
+					--you create object for data management
+						--Tables
+						--Views
+						--Indexes
+						--Users and Roles
+						--TSQL objects
+							--Functions
+							--Procedures
+							--Triggers
+							--Cursors
+				SubLanguages
+				1. DDL - Data Defination language
+					Create (to create a new object)
+					Alter (to modify an object, eg add new column to existing table)
+					Drop  (to delete the object from database)
+				2. DML - Data Manipulation Language
+					insert
+					update
+					delete
+					truncate 
+				3. DTL - data transaction language
+					Commit (control + S - save)
+					Rollback (control + z - undo)
+				4. DQL - Data Query language
+					Select
+						select all the from columns
+						select limited columns data
+						select with calculation
+						select with filter
+						select with sorting
+						select with function
+
+
+
+			
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
