@@ -67,6 +67,52 @@
 						select with filter
 						select with sorting
 						select with function
+	`					select with JOINS (there are 5 types of joins)
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

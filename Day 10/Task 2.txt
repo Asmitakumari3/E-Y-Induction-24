@@ -1,0 +1,31 @@
+Drop all the databases you have created since morning
+
+1. create a new database - BankingDB_Practice
+2. in the BankingDB_Practice
+	create below tables
+
+	1. BranchInfo
+		branchNo int primary key, 10,20,30, 40 
+		branchName varchar(20) -- name of some area - eg. SaltLake, Rasberry, Hi-tech city, Cuff Pared
+		branchCity varchar(20) --                     Kolkatta, Kolkatta, Hyderabad, Mumbai etc...
+		branchEmail varchar(20) 
+			all the columns are not null
+
+
+		Open 5 branches (10 to 50) -- insert 5 records
+
+	we will customers in branches, an bank can have customers only in the branches, not loose or customer from home (like WFH
+
+	Thus we need a table to store customer details mapped to branches
+
+	so create below table
+
+	2. CustomerInfo
+		customerNo int primary key and identity
+		customerName varchar(20)
+		accountType varchar(20) - allow only Savings, Current and PF
+		accountBalance bigint - do not allow negative value
+		branchNo -- this is a foreign key to BranchInfo table
+			(in this column you can insert only values which are present in branchInfo table)
+	add 15 customer to bank, 3 customers per branch
+	
