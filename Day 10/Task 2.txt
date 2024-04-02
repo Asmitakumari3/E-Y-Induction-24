@@ -29,3 +29,19 @@ Drop all the databases you have created since morning
 			(in this column you can insert only values which are present in branchInfo table)
 	add 15 customer to bank, 3 customers per branch
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

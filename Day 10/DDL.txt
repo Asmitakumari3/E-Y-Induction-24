@@ -25,7 +25,6 @@ Learn SQL as a Language (this is language is common for SQL Server, Oracle, DB2,
 					empDesignation varchar(20),
 					empSalary int,
 					empIsPermenat bit,
-
 					constraints list
 					
 				)
