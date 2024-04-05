@@ -1,0 +1,23 @@
+create a function CalculateCTC
+	accept (empExperienced, (bit)
+		empCity
+		)
+
+	if emp is experienced below are conditions
+		basic salary will be 8000       
+		else basic salary will be 5000
+
+		HRA will be given to user based on below city
+			Mumbai - 30% of basic salary
+			Pune - 20% of Baisc salary
+			Kolkatta - 20% of Basic
+			Chennai - 15% of basic
+		MonthlyBonus is 1500
+
+		Tax - 8% of gross (basic + Hra + monthlyBonus)
+		Net - (basic + Hra + monthlyBonus) - Tax
+		CTC is Net * 12
+	return CTC
+
+		8000 + 2400 + 1500 -- 11900 - 952
+		
