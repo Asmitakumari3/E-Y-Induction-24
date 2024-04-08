@@ -1,0 +1,97 @@
+In the same database
+
+1. create a table, emplooyeeInfo
+	empno, empName, empDesignation, empSalary, empIsPermenant
+
+2. create a procedure proc_HR
+	where hr should be able to 
+		add a new employee
+		update an employee (change designation, and empisPermenant or no)
+		delete an employee
+		promote an employee (change the salary, make sure new salary is higher than current one
+					else print an error message)
+
+	
+
+
+
+
+
+
+
+
+Types of procedure - based on parameters
+
+Procedure with
+a. In - input parameter (where user will pass the input, eg. @accNo, @amt, etc......)
+	can be mandatory or can be default
+	
+
+b. without parameter - do not take parameters from users
+	eg. new_flightProc
+	create procedure newFlight
+	as
+	begin
+		--we did our operations here - like insert 9x records
+	end
+
+c. with out parameter (here, procedure will give you an output) - value
+		it is like a return (which functions also does)
+			but function can return only 1 value
+			proc can return multiple values useing out parameter
+
+	--let us see how 
+
+	create procedure newAccNo(@accNo int out, --it means, user will not provide input, but proc will
+						  --tell me the new accNo
+
+	if you want procedure to calculate some value for you and return that value back to you, you can declare it as a parameter with out keyout
+
+	in our example, user will pass accname, accType and accbalance, 
+		table also needs accNo, but to open a new account, how can user pass accNo
+
+		as accNo is supposed to be an auto generated value, so we generated the value inside
+		proc - useing max(accNo) + 1 
+
+
+		and then we want that new accno to be returned back to user (who executed the proc)
+
+
+	1. Procedure can have mulitple output parameters
+	2. procedures can return multiple values useing output parameter
+		where as functions can return only 1 value
+				
+	3. Proceure parameter as by default input, if you want to have to declare/use out keyword
+	4. parameter can act as both input and output as well, this is mostly in case if you want to format the input eg. phoneno 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
