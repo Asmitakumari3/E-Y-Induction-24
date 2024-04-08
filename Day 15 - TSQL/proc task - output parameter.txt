@@ -1,0 +1,43 @@
+in the same database, 
+	create a table empInfo
+		empno, empName, empDesigation, empSalary, empIsActive
+
+	take name, designation, salary from user, keep isActive as default so user
+	does not have to pass it
+
+	return back to user New EmpNo and emailaddress
+		email : name.first2characters of designaion @myorg.in
+
+Hint : u will need 2 output parameters
+	create table empinfo
+	(
+		empno int primary key,
+		empName varchar(20), 
+		empDesigation varchar(20), 
+		empSalary int,
+		empIsActive bit
+	)
+
+	create procedure proc_newEmp(@new_empNo int out,
+				     @new_email varchar(30),
+				     @empName varchar(20),
+				     @empDesignation varchar(20),
+				     @empSalary int)
+	as
+	begin
+		set @new_empNo = (select isnull(max(empNo)) + 1 from empInfo)
+		set @new_email = lower(concat(@empName,'.',substring(@empDesignation,1,2),'@myorg.in')
+	
+		insert into empinfo values(@new_empNo,@empname,@empDesignation,@empSalary,1)
+	end
+				   
+	declare @eNo int
+	declare @enm varchar(30)
+	exec proc_newEmp @eNo out,@enm out,'Nikhil','Trainer',4000
+	print concat('Employee Added, new EmpNo is : ',@eNo,' Email address is ',@enm)
+
+
+
+
+
+	
