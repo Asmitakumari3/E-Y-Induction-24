@@ -1,0 +1,20 @@
+1. We want to share certain columns and data with frontend developers, client who will fetch the
+	data in excel and other members needs to view the data, but we will not be shareing with them
+	where the data is stored, they will not have access to storage
+
+	1. we want to share accNo, accName, accBalance, intrest(5% of balance) as Future Balance, to someone, 		thus create a view for the same
+
+	2. We need to share Savings account details to one of the customer, do not include any branchinfo in 		it, even branch no
+
+	3. We need to publish report every week, where we mention, total Accounts for every branchName
+
+			select count(accNo) as Total, branchName from accountsInfo join branchInfo
+				on accountsInfo.branchNo = branchInfo.branchNo
+				group by  branchName
+
+	4. Shaare the name and account no of the all the ppl who has balance less than 5000
+
+		insert a new value in firstview -- see what error you will get
+
+
+

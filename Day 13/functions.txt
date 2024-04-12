@@ -1,0 +1,9 @@
+create function userLogin(@uName,@Pwd)
+
+
+if uName is Admin
+and password is Admin@1234
+
+return Login Successful
+else return 
+Invalid credentials

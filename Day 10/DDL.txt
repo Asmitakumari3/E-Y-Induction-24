@@ -1,0 +1,76 @@
+Learn SQL as a Language (this is language is common for SQL Server, Oracle, DB2, MySql) any 				RDBMS system- it is also a standard
+
+		You can connect to sql server and work with data,(create, search, edit, delete, update) useing sql language
+
+				1. DDL 
+					Crete (any object)
+					alter (edit any object - not data - OBJECT)
+					drop the object
+
+			
+				create object objectname()
+
+				create table tablename( column names)
+				create database databasename
+				create view viewname (...)
+				create procedure procedurename (...)
+				create function functionname (...)
+				create trigger triggername(....)
+		
+
+				create table EmployeeDetails
+				(
+					empNo int,  (primary key, default values)
+					empName varchar(20),
+					empDesignation varchar(20),
+					empSalary int,
+					empIsPermenat bit,
+					constraints list
+					
+				)
+				constraints are used for data integrity/ data validation
+				eg. designation can be only Manager, Developer and HR
+				    salary to between 5000 and 25000 only
+				    empIsPermenant is mandatory field, canno be left blank
+
+				There are 5 types of constraints
+		1.Primary key (this is make sure every record has an identity and is unique)
+		2.Check Constraint (check for data, eg, designation, salary,name char length etc..)
+		3. NOT NULL (means mandatory)
+		4. Unique key (means the column will always have unique value, eg email, pan,aadhar,mobile)
+		5. Foreign Key(relation with other table)
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+				
+
+
+
+
+
+
+
+
+
+
+
+

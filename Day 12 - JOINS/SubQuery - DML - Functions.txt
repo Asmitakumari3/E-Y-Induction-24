@@ -1,0 +1,357 @@
+	sp_help deptInfo
+
+		
+		--Subquery
+
+		--I want to know name of the person who has highest bank balance
+		select max(empSal) from employeeInfo
+		select empName, empSal as [Highest Salary] from employeeInfo where empSal = (select max(empSal) from employeeInfo)
+
+
+		select empName,max(empSal) as [Highest Salary] from employeeInfo where empSal 
+
+
+
+
+		-- we want to know total employees working in each dept 
+		-- we have 5 department as of now for learning - but we may have 15-20 departments 
+
+		select count(empNo) As Total, employeeInfo.empDept from employeeInfo group by empDept
+
+		
+		select count(empNo) As Total, employeeInfo.empDesignation from employeeInfo group by empDesignation
+
+		select count(empNo) as Total, deptInfo.deptCity from employeeInfo full join deptInfo on empDept = deptNo
+				group by deptCity
+
+		select count(deptCity) from deptInfo
+		select distinct deptCity from deptInfo
+
+		select * from employeeInfo
+		select * from deptInfo
+
+		select count(empNo),empDesignation from employeeInfo group by empDesignation
+
+
+
+
+		--wild card operator - like operator with %
+		-- if you want to filter a column (varchar column) values you can use this operator
+
+		--get me all the empname starting with N
+		select * from employeeInfo where empName like '%nam'
+
+		select * from employeeInfo where empName like '%ik%'
+
+		select * from employeeInfo where empName like '__n%'
+
+		select GETDATE()
+		select DATEPART(DAYOFYEAR,getdate())
+
+		select GETDATE() + 5
+		select DATEADD(month,4,getdate())
+		select DATEDIFF(MONTH,'2024-01-01','2024-09-22')
+
+		--Give the below output
+		--consider 01st April 2024 is the joining data of employee
+		----first 55 days is the traiing period -- tell us when is the last day of training
+		---6 months after joining is the first meeting with mentor -- when is the meeting date
+		---12 months after joining will be your first apprisal meeting - what is the date
+		---18 month after training completion - your first joining bonus - what is the date
+		---4 weeks after your  meeting with mentor - you get a promotion letter - what is the date
+		--arrive at all the dates - what is the date
+
+
+
+---------------------------------------------------------------------
+
+				--Join the data from tables - join the tables
+				--Dept table - 5 records
+				--Emp tables - 12 records
+
+				--Equi Join - gives data which is equal
+					--comparision point will be PK and FK (deptno col data from the tables)
+				select * from employeeInfo join deptInfo
+					on employeeInfo.empDept = deptInfo.deptNo
+
+
+-------------------------------------------------------------------------------
+		sp_help deptInfo
+
+		
+		--Subquery
+
+		--I want to know name of the person who has highest bank balance
+		select max(empSal) from employeeInfo
+		select empName, empSal as [Highest Salary] from employeeInfo where empSal = (select max(empSal) from employeeInfo)
+
+
+		select empName,max(empSal) as [Highest Salary] from employeeInfo where empSal 
+
+
+
+
+		-- we want to know total employees working in each dept 
+		-- we have 5 department as of now for learning - but we may have 15-20 departments 
+
+		select count(empNo) As Total, employeeInfo.empDept from employeeInfo group by empDept
+
+		
+		select count(empNo) As Total, employeeInfo.empDesignation from employeeInfo group by empDesignation
+
+		select count(empNo) as Total, deptInfo.deptCity from employeeInfo full join deptInfo on empDept = deptNo
+				group by deptCity
+
+		select count(deptCity) from deptInfo
+		select distinct deptCity from deptInfo
+
+		select * from employeeInfo
+		select * from deptInfo
+
+		select count(empNo),empDesignation from employeeInfo group by empDesignation
+
+
+
+
+		--wild card operator - like operator with %
+		-- if you want to filter a column (varchar column) values you can use this operator
+
+		--get me all the empname starting with N
+		select * from employeeInfo where empName like '%nam'
+
+		select * from employeeInfo where empName like '%ik%'
+
+		select * from employeeInfo where empName like '__n%'
+
+		select GETDATE()
+		select DATEPART(DAYOFYEAR,getdate())
+
+		select GETDATE() + 5
+		select DATEADD(month,4,getdate())
+		select DATEDIFF(MONTH,'2024-01-01','2024-09-22')
+
+		--Give the below output
+		--consider 01st April 2024 is the joining data of employee
+		----first 55 days is the traiing period -- tell us when is the last day of training
+		---6 months after joining is the first meeting with mentor -- when is the meeting date
+		---12 months after joining will be your first apprisal meeting - what is the date
+		---18 month after training completion - your first joining bonus - what is the date
+		---4 weeks after your  meeting with mentor - you get a promotion letter - what is the date
+		--arrive at all the dates - what is the date
+
+-------------------------------------------------------------------------
+				--Join the data from tables - join the tables
+				--Dept table - 5 records
+				--Emp tables - 12 records
+
+				--Equi Join - gives data which is equal
+					--comparision point will be PK and FK (deptno col data from the tables)
+				select * from employeeInfo join deptInfo
+					on employeeInfo.empDept = deptInfo.deptNo
+
+
+
+
+		
+
+
+		sp_help deptInfo
+
+		
+		--Subquery
+
+		--I want to know name of the person who has highest bank balance
+		select max(empSal) from employeeInfo
+		select empName, empSal as [Highest Salary] from employeeInfo where empSal = (select max(empSal) from employeeInfo)
+
+
+		select empName,max(empSal) as [Highest Salary] from employeeInfo where empSal 
+
+
+
+
+		-- we want to know total employees working in each dept 
+		-- we have 5 department as of now for learning - but we may have 15-20 departments 
+
+		select count(empNo) As Total, employeeInfo.empDept from employeeInfo group by empDept
+
+		
+		select count(empNo) As Total, employeeInfo.empDesignation from employeeInfo group by empDesignation
+
+		select count(empNo) as Total, deptInfo.deptCity from employeeInfo full join deptInfo on empDept = deptNo
+				group by deptCity
+
+		select count(deptCity) from deptInfo
+		select distinct deptCity from deptInfo
+
+		select * from employeeInfo
+		select * from deptInfo
+
+		select count(empNo),empDesignation from employeeInfo group by empDesignation
+
+
+
+
+		--wild card operator - like operator with %
+		-- if you want to filter a column (varchar column) values you can use this operator
+
+		--get me all the empname starting with N
+		select * from employeeInfo where empName like '%nam'
+
+		select * from employeeInfo where empName like '%ik%'
+
+		select * from employeeInfo where empName like '__n%'
+
+		select GETDATE()
+		select DATEPART(DAYOFYEAR,getdate())
+
+		select GETDATE() + 5
+		select DATEADD(month,4,getdate())
+		select DATEDIFF(MONTH,'2024-01-01','2024-09-22')
+
+		--Give the below output
+		--consider 01st April 2024 is the joining data of employee
+		----first 55 days is the traiing period -- tell us when is the last day of training
+		---6 months after joining is the first meeting with mentor -- when is the meeting date
+		---12 months after joining will be your first apprisal meeting - what is the date
+		---18 month after training completion - your first joining bonus - what is the date
+		---4 weeks after your  meeting with mentor - you get a promotion letter - what is the date
+		--arrive at all the dates - what is the date
+
+
+
+
+
+
+--Join the data from tables - join the tables
+				--Dept table - 5 records
+				--Emp tables - 12 records
+
+				--Equi Join - gives data which is equal
+					--comparision point will be PK and FK (deptno col data from the tables)
+				select * from employeeInfo join deptInfo
+					on employeeInfo.empDept = deptInfo.deptNo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+		sp_help deptInfo
+
+		
+		--Subquery
+
+		--I want to know name of the person who has highest bank balance
+		select max(empSal) from employeeInfo
+		select empName, empSal as [Highest Salary] from employeeInfo where empSal = (select max(empSal) from employeeInfo)
+
+
+		select empName,max(empSal) as [Highest Salary] from employeeInfo where empSal 
+
+
+
+
+		-- we want to know total employees working in each dept 
+		-- we have 5 department as of now for learning - but we may have 15-20 departments 
+
+		select count(empNo) As Total, employeeInfo.empDept from employeeInfo group by empDept
+
+		
+		select count(empNo) As Total, employeeInfo.empDesignation from employeeInfo group by empDesignation
+
+		select count(empNo) as Total, deptInfo.deptCity from employeeInfo full join deptInfo on empDept = deptNo
+				group by deptCity
+
+		select count(deptCity) from deptInfo
+		select distinct deptCity from deptInfo
+
+		select * from employeeInfo
+		select * from deptInfo
+
+		select count(empNo),empDesignation from employeeInfo group by empDesignation
+
+
+
+
+		--wild card operator - like operator with %
+		-- if you want to filter a column (varchar column) values you can use this operator
+
+		--get me all the empname starting with N
+		select * from employeeInfo where empName like '%nam'
+
+		select * from employeeInfo where empName like '%ik%'
+
+		select * from employeeInfo where empName like '__n%'
+
+		select GETDATE()
+		select DATEPART(DAYOFYEAR,getdate())
+
+		select GETDATE() + 5
+		select DATEADD(month,4,getdate())
+		select DATEDIFF(MONTH,'2024-01-01','2024-09-22')
+
+		--Give the below output
+		--consider 01st April 2024 is the joining data of employee
+		----first 55 days is the traiing period -- tell us when is the last day of training
+		---6 months after joining is the first meeting with mentor -- when is the meeting date
+		---12 months after joining will be your first apprisal meeting - what is the date
+		---18 month after training completion - your first joining bonus - what is the date
+		---4 weeks after your  meeting with mentor - you get a promotion letter - what is the date
+		--arrive at all the dates - what is the date
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+		
+
+
+
+
+		
+
+
+

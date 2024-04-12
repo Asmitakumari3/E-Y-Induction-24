@@ -1,0 +1,10 @@
+Loops
+	This are used for iterations - repetation untill you want it to repeat
+
+	Types of loops
+		1. For loop (this is when you know how many repeatations you want to perform - 				eg - 5 times or 10 times)
+
+		2. While loop (this is when you want to repeate the code until it meets the condition - eg ATM machine)
+
+		3. Foreach loop - (special loop for Collections like Array and list)
+	

@@ -1,0 +1,50 @@
+create table deptInfo with 4 columns
+	deptNo
+	deptName
+	deptLocation
+	deptHOD
+
+	deptNo to be PK
+	deptName to Unique
+	deptLocation (Mumbai, Pune, Kolkatta)
+	deptHOD minimum 3 characters
+
+	insert atleast 3 records here
+		deptNo, 10, 20, 30
+
+2. create table EmployeeInfo
+	EmpNo	
+	EmpName	
+	EmpDesignaton	
+	EmpSalary	
+	EmpIsActive	
+	EmpDeptNo
+
+	constraint PK for empNo, 3 characters for name, all the columns to be not null
+
+
+	create table EmployeeInfo
+	(
+		empNo int,
+		empName varchar(20),
+		empDesignation varchar(20),
+		empSalary int, 
+		empIsActive bit,
+		empDeptNo int,
+
+		constraint pk_empNo primary key(empNo),
+		constraint chk_empName_len check (len(empName) >= 3),
+		constraint fk_empDepNo_deptInfo foreign key(empDeptNo) references deptInfo
+
+	)
+
+
+
+
+
+
+	
+
+
+
+

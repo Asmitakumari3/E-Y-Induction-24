@@ -1,0 +1,172 @@
+1. Look at everything in 1 way 
+
+
+	Application since 1990 and still today are driven by a very strong and verified, trusted pattern of programming - OOPS
+
+
+		Object Oriented Programming System/Structure
+
+		Object - is a real world entity - layman language
+		Object - For a developer - everything is an object
+			Object needs to be understood
+		
+			Object is made up of below things
+			1. Properties of an object - every object has an propery (description)
+				Pen = Color, price, size, type, etc..
+				Trainer = Name, certification, years of experience, permenant
+				Teams App = Owner, purpose, licence, capacity, features, rights
+				BankAccount = accNo, accName, accType, accBalance, accIsActive
+				Employee = empNo, empName, empDesignation, empGender.....
+			2. Function/Methods 
+			BankAccount - Deposit, Transfer, Paybill, withdraw, onlineshopping, investment
+			
+			3. ENUMS - empGender - Male or female only
+				   empModeOfTravel - Bike, CompanyTransport, Car, ownMode
+			4. Constructor - special function/method which executes on its own when a new object 			   is created, and it will never execute again for the same object
+			5. Events - this are like triggers, which is for automatation in an application for      				  an object (Cellular company, airtel/jio is called as an Delegate)
+			6. Variables
+
+		Collection of above components forms an Object, where do u write all this code 
+
+
+		Object is an real world entity, before an object is created, it is designed
+		Plan is called Blueprint - class
+
+		Class is a blueprint of an object - you write properties, functions, events, constructors 		etc. in a class
+		and you create an object from that class
+
+		FileStream myFile = new FileStream(...... constructor....)
+			myFile.close(); //close is an function 
+
+
+
+
+
+
+
+			BankingAPP
+
+
+			Namespaces
+				BankAccounts
+					Saving
+					Current
+					PF
+				Investment
+					Gold
+					FD	
+					Bonds
+					MutualFunds
+				Services
+					ChequeBookRequest
+					ATM Card
+					Apply CreditCard
+				Loans
+					Edu Loan
+					Home Loan
+					Car Loan
+					Marrige Loan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			Create a new ConsoleApp - 
+			Name : BankingAPP
+			You need to have below namespaces
+				Namespace : Accounting
+				 classes
+					Savings
+					Current
+					PF
+				Namespace : Investment
+				classes
+					FD
+					GOLD
+					MutualFunds
+					Equity
+				Namespace : Transaction
+				classes
+					Transfer
+					Deposit
+					Withdraw
+					BillPay
+				Namespace : Services
+				classes
+					Request
+					CallBack
+					UpgradeAccount					
+
+
+
+
+			in every class, add a new method
+			public string whoAmI()
+			{
+				return "I am a Savings Account"; (replace savings account with class name)
+			}
+		
+
+
+
+
+
+			In program.cs
+
+	
+		create a new object of FD
+		and call the method which you added, whoAmI
+	
+			FD myFD = new FD();
+			string result = myFD.WhoAmI();
+			console.writeline(result);
+			
+===============================================================================
+	Enum
+	Default parameter
+	Named Parameter
+	Param Array
+	Properties - this are getter and setter (get the value from variable / set the value into a 				variable)
+		They are like a coverbox to variables
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

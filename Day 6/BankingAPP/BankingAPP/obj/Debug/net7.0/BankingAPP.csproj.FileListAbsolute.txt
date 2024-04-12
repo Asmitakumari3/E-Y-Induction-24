@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\bin\Debug\net7.0\BankingAPP.exe
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\bin\Debug\net7.0\BankingAPP.deps.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\bin\Debug\net7.0\BankingAPP.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\bin\Debug\net7.0\BankingAPP.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\bin\Debug\net7.0\BankingAPP.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\obj\Debug\net7.0\BankingAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\obj\Debug\net7.0\BankingAPP.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\obj\Debug\net7.0\BankingAPP.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\obj\Debug\net7.0\BankingAPP.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\obj\Debug\net7.0\BankingAPP.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\obj\Debug\net7.0\BankingAPP.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\obj\Debug\net7.0\refint\BankingAPP.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\obj\Debug\net7.0\BankingAPP.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\obj\Debug\net7.0\BankingAPP.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 6\BankingAPP\BankingAPP\obj\Debug\net7.0\ref\BankingAPP.dll

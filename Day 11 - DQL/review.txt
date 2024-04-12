@@ -1,0 +1,9 @@
+1. RDBMS System
+2. SQL Server
+3. Normalization
+4. SQL Language 
+5. DDL, DML, DQL, DCL
+6. Create database, create tables, create constraints
+7. Insert values
+8. Drop table
+	

@@ -1,0 +1,258 @@
+Last week Review
+
+Agile
+GIT
+.net core
+	C# programming	
+		namespace
+		variables, conditions 
+				if..else
+				switch cases
+				loops
+					while
+					for loop
+					foreach
+		File.IO
+		Collections
+			Array, Arraylist, list, dictionary
+		OOPS
+			Classes
+			Properties
+			Constructor
+			ENUM
+			
+--------------------------------------------------------------------------------------------------
+			4 pillars of OOPS
+			
+			1. Abstraction
+			2. Encapsulation
+			3. Inheritance	
+			4. Polymorphism
+
+
+
+
+	Banking APP - Design a class - BankAccount
+
+
+
+		
+		1. Abstraction - Abstract - remove / unconsider content in a class which are not in a scope 				 of Application 
+
+				Eg. Properties
+
+			firstName, lastName, Phone, Address, Email, AadharCard, PAN, DOB, REF, WorkDetails, 
+			Edu Details, Signature
+
+
+				Methods
+				Deposit, Withdraw, Transfer, BillPay, 
+				SpendingHabbits,
+
+
+
+		We Declare all the important and common properties,functions,constructors, events of an 		object in an Abstract class
+			This pillar is the first stage in OOPS and is related to design of an object 
+		2. Encapsulation
+			create an application which is easy to use but difficult to understand about how it         
+                        works (properties, function and events)
+
+		3. Inheritance - reuse 
+
+		4. Polymorphism - Same signature function, but differnt output, behaviour, for diffent rules
+
+		Signature of a method refers to, name of the method, return type,  parameters, number of parameters, sequence and datatype of a parameter
+
+		public double withdraw(int amount)
+		{
+			//differnt logic for different types of accounts
+		}
+		
+
+
+-------------------------------------------------------------------------------------------------
+		oops IMPLEMENTATION
+
+		1. Crete a new console app - BankingAPP
+		2. Add a new class - BankAccount
+		3. Abstraction -
+			Properties
+				int accNo,
+				string accName,
+				string accType,
+				double accBalance,
+				bool accIsActive
+
+
+			for 1 property, you 
+		1. create a variables (and promise never to use it - besides useing it in a property)
+		2. write getter and setter
+
+			for 5 properties, you end up writing almost 20 lines of code
+			Now, you can create 1 property in 1 line, so 5 lines for 5 peoprties
+
+			variables will be created by compiled in the backend, you are not even suppose to use to use a variable so you do not need to know about them 
+
+
+		---------------------------------------
+		Minimize the application 
+
+		Create a new applicaiton - EmployeeManagement
+		1. add a new class - Employee
+				empNo
+				empName
+				empDesignaion			
+				empSalary
+				empIsPermenant
+
+			add 2 methods
+		1. CalculateBonus (this will take percentage) and return that percentage of empSalary
+		2. Change empDesignation, take parameter as new designation and return the new designation
+				
+
+
+
+		Employee empObj2 = new Employee();
+
+		here the employee obj got created, but we dont know what is the name and value for other 		properties
+
+			So we will create (application) will create the object only when you provide
+			the necessary information
+
+			This is achived useing Constructor
+
+			Compiler always adds an default/parameterless constructor, which does nothing but 			can an object
+
+			you can also have other constructors
+			
+				a. Parameterless - you can do some condition check, calculation etc..
+				b. parameterised constructor, ask for values from user to create the object
+
+
+
+		After applying - Properties and methods (Abstraction and Encapculation)
+				we move towards inheritance
+
+---------------------------------------------------
+		Inheritance
+			you can achive inheritance useing : symbol on a child class followed by parent class
+
+			eg.
+			public class Manager : Employee
+			{
+			}
+
+			here Manager is a child class and Employee is a parent class
+
+		**You can inherit only from 1 class (Modern OOPS)
+		** Multiple Inheritance is not allowed as it creates (Diamond Problem)
+			Hunt : What is a diamond problem caused due to Multiple Inheritance
+		** When you create an object of a child class, parent class object gets created first in 								Memory and then only it will give all 									properties and functions to child
+
+
+			Manager manObj = new Manager(); //at runtime, in memory(RAM)
+				Empoyee empObj = new Employee(); //this run on its own
+				but the employee obj has a parameterised constructor and values needs to be passed else there is an error 
+
+
+		but if your parent has an Parameterised constructor, runtime cannot create an object, as the 
+		value for parameter will be missing
+
+		**this are a very delicate values, and we cannot leave it blank or default
+
+		**thus to fix this, we will pass the values to parent class constructor useing base keyword
+			also called as passing the parameter to base class constructor
+
+
+
+
+//BankAccount acc = new BankAccount(101,"Nikhil","BankAccount",true,5000); //what type of account is this
+                                     //this is not a real world entity
+                                     //thus we should not allow creation of Bankaccount object
+                                     //Thus we will mark this class a abstract class
+                                     //you cannot create an instance of abstract class
+
+		Abstract : cannot create an object of it, but can be inherited
+		Sealed : cannot be inherited but can make an object out of it
+
+		
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+

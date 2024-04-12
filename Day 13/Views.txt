@@ -1,0 +1,41 @@
+out of this 15 columns 
+
+only first 4 columns needs to be shared with Ankun, Ashmita, Prantap, Keerthana
+
+	how will you share 
+	select col1, col2, col3, col4 from empInfo  -- you get your data
+			paste it into a new file - and share the file
+
+
+
+only first 7 columns needs to be shared with Husain, Prayas, Nikhil, Anwesha
+	
+only first 3 columns and last 4 colmns needs to be shares with Ravi, Noor, NikhilTrainer
+
+only first 2 colmns, col8,9 and 15 needs to be shared with your manager
+
+	1. You will end up createing many files (Tables)
+	2. Storage will be consumed
+	3. You will have to Manually sync all the files (which will take lot of time)
+		This is still fine it they are files, but if it is table, it is not possible
+
+Thus to solve this problem, we have a concept of View
+	1. you can keep on creating as many views you want, 
+		when someone tries to access the data useing view, at runtime, in memory a new table
+		structure gets created based on your defination while createing the view and data is then 		shared
+	2. It is not physically going to take space in memory
+	3. it will auto update itself
+	
+	if you give access to table(storage) there is a risk some one may corrupt it 
+	thus a safe solution for a developer is to create a view and share the same
+
+
+
+
+
+
+
+
+
+
+

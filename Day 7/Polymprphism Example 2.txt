@@ -1,0 +1,126 @@
+We need to work on Leave policy for employees
+	We have a parent class - EmployeeInfo
+		which will have a property - availableLeave
+		everybody gets 30 leavs in a year - default
+		Employees can apply for leave by passing number of days
+		We have 3 child classes - applyLeave(days)
+			Manager - can apply max 4 days at a strech 
+			Developer - can apply max 7 days at a strech 
+			Sales - can apply max 2 days at a strech 
+
+	1. Create a new project - EmployeeManagement_OOPS	
+	2. Add a new class EmployeeInfo - This will be an Abstract class
+	3. Add a property - availableLeaves
+	4. Add a method - applyLeaves(int days) - 
+
+	check a condition that id days is less than 1 - throw new  Exception("Minimum 1 day of leave can be approved")
+
+	5. Add 3 classes 
+		Manager
+		Developer
+		Sales
+
+	6.Inherit all this classes from EmployeeInfo
+
+	we will override applyLeaves(days)
+
+
+	7. Mark applyLeave method as virtual in parent class
+	8. Mark applyLeave method as override in child classes
+
+
+
+
+
+
+
+
+
+------------------------------------------------------
+		Task : Polymorphism
+
+		Create a new applicaiton - InsuranceManagement
+		We have 3 types of insurance
+			HealthInsurance
+			LifeInsurane
+			CarInsurance
+
+			We will create an object of any of the above
+			They will have method as - CalculateRenewalPremieum - method 
+
+			User will pass age and Amount to be insured for (5 lakh, 8 lakh any.....)
+			For HealthInsurance - for age between 1 and 30 - Insurance is 30% of insurance value
+					    - for 30 to 60 - 50% of the value
+					    - above 60 - 70% of the value
+			For LifeInsurance - for age between 1 and 30 - Insurance is 8% of value
+					  - for 30 to 60 - insurance is 20% of the vaulue
+					  - for 60 to 75 - insurance is 40% of value
+					  - above age 75 - throw exception, sorry we cannot insure you
+			For CarInsurance  - 0(newcar) - Insurancce is 15% of value
+					  - 1 to 5 - Insurance is 50% of value
+					  - 5 or above - 100%
+
+			Make sure minimum value for insurance is 10,000 and maximum is 20,00,000 for any 												Insurance			
+			public int Age{get;set;}
+			public int InsuranceValue{get;set;}
+
+			public Insurance(int p_age, double p_insuranceValue)
+			{
+				Age = p_age;
+				InsuranceValue = p_insuranceValue;
+			}
+
+
+			HealthInsurance hInsr = new HealthInsurance(22,800000);
+	hInsr.CalculateRenewalPremieum(age,insurancevalue);  -- this will return you a value you will						pay to insurance company - 2,40,000 
+
+			LifeInsurance lInstr = new LifeInsurance();
+			lInst.CalculateRenewalPremieum(22,800000); -- 64000
+							
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

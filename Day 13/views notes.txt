@@ -1,0 +1,66 @@
+RDBMS -
+	SQL
+		DDL 
+		DML
+		DQL
+
+-------------------------------------
+Table
+Constraint
+Views -- this is a virtual table
+	1. when you have many columns in a table (single table or likned tables) and you do not wish to 		share
+		all the columns with the user, you create views
+		Eg. Emp table has 10 columns 
+	
+empNo, empName, empDesignation, empSalary, empIsPermenant, empDept, deptName, deptCity, deptHOD, deptEmail
+
+	We wish to share some column data only to end user, not everything
+
+	Thus you create a view
+
+	2. When you want to display lots of calculation, but dont want to store it as a table you can use 		view
+
+	Eg.
+	you want to share EmpNo, empDesignation, empSalary, empBonus, empTravelAllowance
+
+
+		create view v_empDetails
+		as
+		DQL statement
+
+		create view v_empDetails
+		as
+		select empNo as [Employee Number],
+		       empName as Name
+		       empDesignation as Designation,
+		       empSalary as Salary,
+		       empSalary * 12 as [Annual Package],
+		       (empSalary * 12) * 0.1 as Bonus
+		from EmployeeInfo
+
+		Share the view name with other user (frontend developer, junior developer)
+		select * from v_empDetails
+
+			In a view, you can have joins, functions, calculations, clauses like orderby,groupby, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+

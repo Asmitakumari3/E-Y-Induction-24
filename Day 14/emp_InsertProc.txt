@@ -1,0 +1,74 @@
+
+
+
+create table empInfo
+(
+	empNo int primary key,
+	empName varchar(20),
+	empDesignation varchar(20),
+	empSalary int,
+	empIsPermenant bit,
+	empDeptNo int
+	constraint fk_empDeptNo foreign key(empDeptNo) references deptInfo
+)
+
+select ISNULL(max(empNo),100) from empInfo
+
+create table empContactinfo
+(
+	empNo int primary key,
+	empEmailAddress varchar(80),
+	empMobileNo bigint,
+	empPAN varchar(10),
+	constraint fk_empNo foreign key(empNo) references empInfo
+)
+
+create procedure proc_newEmp(@empName varchar(20),
+							@empDesignation varchar(20),
+							@empIsPermenant bit,
+							@empMobileNo bigint,
+							@empPan varchar(20))
+						as
+						begin
+
+			declare @newEmpNo int;
+						set @newEmpNo = (select isnull(max(empNo),100) + 1  from empInfo)
+
+			declare @newSalary int
+			declare @newEmpDeptNo int;
+			declare @newEmailAddress varchar(80)
+				set @newEmailAddress =(select CONCAT(@empName,'.',SUBSTRING(@empDesignation,1,2),'@myorg.co.in'))
+						
+						if(@empDesignation = 'HR')
+						begin
+							set @newSalary = 10000
+							set @newEmpDeptNo = 10
+						end
+						else if (@empDesignation = 'Developer')
+						begin
+							set @newSalary = 15000
+							set @newEmpDeptNo = 20
+						end
+						else if(@empDesignation = 'Sales')
+						begin
+							set @newSalary = 20000
+							set @newEmpDeptNo = 30
+						end
+
+			insert into empinfo values(@newEmpNo,upper(@empName),@empDesignation,@newSalary,@empIsPermenant,@newEmpDeptNo)
+			insert into empContactInfo values(@newEmpNo,@newEmailAddress,@empMobileNo,upper(@empPan))
+					
+
+						end
+
+
+
+
+						exec proc_newEmp 'Indranil','Sales',1,787889,'TTYYUHJHk'
+
+
+						select * from empInfo
+						select * from empContactInfo
+
+
+

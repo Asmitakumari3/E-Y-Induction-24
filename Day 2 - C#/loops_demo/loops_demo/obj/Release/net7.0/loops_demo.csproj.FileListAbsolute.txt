@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\bin\Release\net7.0\loops_demo.exe
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\bin\Release\net7.0\loops_demo.deps.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\bin\Release\net7.0\loops_demo.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\bin\Release\net7.0\loops_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\bin\Release\net7.0\loops_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\obj\Release\net7.0\loops_demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\obj\Release\net7.0\loops_demo.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\obj\Release\net7.0\loops_demo.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\obj\Release\net7.0\loops_demo.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\obj\Release\net7.0\loops_demo.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\obj\Release\net7.0\loops_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\obj\Release\net7.0\refint\loops_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\obj\Release\net7.0\loops_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\obj\Release\net7.0\loops_demo.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 2\loops_demo\loops_demo\obj\Release\net7.0\ref\loops_demo.dll

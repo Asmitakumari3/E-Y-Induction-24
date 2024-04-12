@@ -1,0 +1,28 @@
+Excel File : 8 columns
+
+Team A: We need to share data of only first 3 columns
+Team B: We need to share data of last 4 columns
+Team C: We need to share all the columns
+Team D: we need to share col2, col3, and col7
+
+---------------------------------------
+			Normalization - is a process we use to Design a database
+				what columns should be considered
+				what columns will go in another table
+				How do you break the tables 	
+				How do you relate the tables
+				How do you make sure to overcome problems from flat file
+			there are 6 states of Normalization
+			1NF
+			2NF
+			3NF
+			4NF
+			5NF
+			6NF
+
+		For RDBMS - Databases - we use first 3
+		For DataAnalytics - we use the last 3 (also called as DeNormalization) - data science, data
+											analytics, data 											forcasting
+
+		once we do 1NF, 2NF and 3rdNF we create diagrams - ER diagrams
+	

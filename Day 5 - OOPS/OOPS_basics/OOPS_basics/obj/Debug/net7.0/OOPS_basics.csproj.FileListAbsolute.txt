@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\bin\Debug\net7.0\OOPS_basics.exe
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\bin\Debug\net7.0\OOPS_basics.deps.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\bin\Debug\net7.0\OOPS_basics.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\bin\Debug\net7.0\OOPS_basics.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\bin\Debug\net7.0\OOPS_basics.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\obj\Debug\net7.0\OOPS_basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\obj\Debug\net7.0\OOPS_basics.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\obj\Debug\net7.0\OOPS_basics.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\obj\Debug\net7.0\OOPS_basics.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\obj\Debug\net7.0\OOPS_basics.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\obj\Debug\net7.0\OOPS_basics.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\obj\Debug\net7.0\refint\OOPS_basics.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\obj\Debug\net7.0\OOPS_basics.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\obj\Debug\net7.0\OOPS_basics.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 5 - OOPS\OOPS_basics\OOPS_basics\obj\Debug\net7.0\ref\OOPS_basics.dll

@@ -1,0 +1,47 @@
+RDBMS system - there are 2 languages u work with
+	SQL - u studied this
+	TSQL - Transact SQL (In SQL Server)
+	PLSQL - On Oracle
+
+	We need variables, if conditions, loops, switch case, exception handling etc... programming
+
+		There are seperate objects for them
+
+		1. Functions - create your own functions - UDF - user defined functions
+				this is used to mostly perform, 
+					calculations, conditions, formatting, validations with data
+	
+		2. Stored Procedures in SQL Server
+			(known as procedure in oracle)
+			This is used for DML operations - this gives you programming abilities
+
+		3. Triggers (as the name suggest - this are the events raised by server in background)
+			eg.when a new emp is added, send an email (welcome email)
+			   when a empLeaves - send an email to their team mates or manager
+				
+
+---------------------------------------------------------------------------------------------
+		To create them, alter them or drop them u use the same SQL language
+
+--Funnction structure
+		create function functionname(...) returns datatype
+		as
+		begin
+			return a value
+		end
+
+--procedure structure
+		create procedure procedurename(....)
+		as 
+		begin
+
+		end
+
+
+
+
+
+
+
+
+

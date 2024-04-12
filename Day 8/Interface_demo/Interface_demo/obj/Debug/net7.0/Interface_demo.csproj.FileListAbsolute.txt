@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\bin\Debug\net7.0\Interface_demo.exe
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\bin\Debug\net7.0\Interface_demo.deps.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\bin\Debug\net7.0\Interface_demo.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\bin\Debug\net7.0\Interface_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\bin\Debug\net7.0\Interface_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\obj\Debug\net7.0\Interface_demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\obj\Debug\net7.0\Interface_demo.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\obj\Debug\net7.0\Interface_demo.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\obj\Debug\net7.0\Interface_demo.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\obj\Debug\net7.0\Interface_demo.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\obj\Debug\net7.0\Interface_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\obj\Debug\net7.0\refint\Interface_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\obj\Debug\net7.0\Interface_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\obj\Debug\net7.0\Interface_demo.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 8\Interface_demo\Interface_demo\obj\Debug\net7.0\ref\Interface_demo.dll

@@ -1,0 +1,89 @@
+DQL and JOIN - we will write almost 50 queries - 50-80 commands
+
+1. Create a new database BankingDB_SQL
+2. Create a table BranchInfo
+	branchNo, branchName, branchCity
+		branchNo primary key
+		BranchName will be unique
+		branchCity and branchName will be not null 
+
+	branchCity is Mumbai, Kolkatta and Pune only 
+
+	add 2 branches to the table for every city (10,20,30....)
+
+	select * from branchInfo
+
+3. Modify the constraint to also include Chennai and Bangalore
+
+	do not add any branches here as of now
+
+4. Create a tables AccountsInfo
+	accNo primary key - identity (500 and increase it by 1)
+	accName - min 3 characters - not null
+	accType - only Savings, Current and PF(mandatory field)
+	accBalance - min 100 and max 10,00,000
+	accIsActive - bit - mandatory
+	accBranch - foreign key
+	
+	add 20 valid records - (no abcd, xyz)
+
+
+		alter table tablesName
+		alter column colname datatype
+
+	add 5 more records, keep accBranch null this time
+
+	alter table accountInfo
+	alter column accBranch int null
+
+5. select all the data from accounts
+6. select accNo, accName and Accbalance from accountsInfo
+7. select only Savings accounts from accountsInfo
+8. select only savings and PF accounts from accountsInfo
+9. select only Savings account who has accBalance more than 1,00,000
+10. select only accounts whoes name starts with 'N'
+	select * from accountsInfo where accName like 'N%'
+	select * from accountsInfo where substring(accName,1,1) = 'N'
+
+11. select all the accounts data sorted by AccountType
+12. select all the accounts data sorted by AccountType and all the name to be internally sorted by 		 accountTypes
+13. select all the accounts data sorted by AccountType and all the name to be internally sorted by 	accountNumber
+14. Display maximum balance available in accountsInfo along with accno, name and type
+	select accNo, accName, accBalance as [Avail Balance] from accountsInfo where accBalance =(select max(accBalance) from accountsInfo)
+
+15. Display total Accounts haveing balance less than 50,000
+16. Display total accounts for every account type
+	select count(accNo), accType from accountsInfo group by accType
+	select count(accType), accType from accountsInfo group by accType
+	select count(accBalance), accType from accountsInfo group by accType
+		
+
+
+
+17. select data from both the tables haveing accountNo 105 (or any1 accNo from your accounts table)
+18. select accNo, accName, accBranchName and accountCity with balance more than 50000
+19. select accounts which are not mapped to any branch
+	
+20. select all the branches which has no accounts
+21. display all the branchNames and how many accounts they have
+22. display the below message
+	accName has a accType account in SaltLake Branch in cityname and has a balance of accBalance
+23. display accNo, accBalance, accBalance * 10% as Intrest, accBalance + accBalance * 10% as FutureBalance 
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

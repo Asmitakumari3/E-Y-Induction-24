@@ -1,0 +1,14 @@
+1. Can we have Switch case inside if condition 
+2. How do you wait for the user interaction in console
+3. Which loop can we use for collections ? - For each 
+4. What is a stream - Stream is chanel in memory
+	Types of streams
+		IO stream - we used it 
+		Network Stream 
+		Binary Stream - This is a chanel to pass the binary content
+
+5. What is a Namespace ?
+6. Which class is used to write the data into a file ? - StreamWriter
+7. What are the parameters for Filestream
+8. What is the difference between Create and CreateNew
+

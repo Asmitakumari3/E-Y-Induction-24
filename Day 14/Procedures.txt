@@ -1,0 +1,31 @@
+When you fire any SQL statement on the server
+
+insert into deptInfo values(....);
+
+1. server will check for Authentication - r u authorised or not, are your username and password correct or not
+2. if correct, it will compile the query
+3. it will then check of the table is present or not, along with columns, data types
+4. it will check do you have rights to perform DML operations on the same 
+5. it will insert the values and return a confirmation to you 
+-------------------------------------------------
+		
+		
+	This 5 steps along with other steps server has to be performed every time it recieves the DML request
+	So think about live servers, amazon, banks, airlines, clients, 1000's request coming every min
+		This is a time consumeing process but also tedious 
+
+			Thus Database server gives us an Object, which says I will perform all this steps
+			once, i.e compilation, authentication, rights, roles, check for tables etc...
+		and when u perform DML with this object, it will directly go to table and perform DML
+				This will save time, improve performane
+
+			Thus we use this object - procedure
+		---------------------------------
+		security guard is like a server
+			has to check your identity
+			calls up HR / manager to about u - r u a right person or no
+			they will come to drop you at ur seat
+
+			to solve this problem after checking your identity at the first time
+				They issed you a ID card - thumb print which will give you direct access
+		they have to do this for all the 1000 employees - it will be tedious 

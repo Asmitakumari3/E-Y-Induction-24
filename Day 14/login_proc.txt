@@ -1,0 +1,42 @@
+create a table LoginInfo
+
+	userName varchar(20) primary key
+	password
+	accStatus varchar(20)
+	attemps int
+
+--------------------
+	we need a procedure called login, user will pass username and password
+	and we create a new login, accStatus will be marked as New, attempts 0
+
+-----------------------------------------------------------------------------------
+	create table loginInfo
+	(
+		userName varchar(20) primary key,
+		password varchar(20),
+		acStatus varchar(20),
+		attempts int
+	)
+	
+	create procedure proc_NewLogin(@userName varchar(20),@pwd varchar(20))
+	as
+	begin
+		declare @countUName int;
+		set @countUName = (select count(userName) from loginInfo) -- this will return int
+		if (@countUName = 1)
+		begin
+			--throw new exception 
+			print 'Username already exist please choose a different name';
+		end
+		else
+		begin
+		insert into logininfo values(@userName,@password,'New',0)
+		end
+	end
+
+
+
+
+
+
+

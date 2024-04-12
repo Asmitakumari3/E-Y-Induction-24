@@ -1,0 +1,19 @@
+1. Create a new database - employeeManagementDB
+2. Add a new table - employeeInfo
+	empNo primary key, empName, empDesignation, empSalary, empIsPermenant
+
+3. Insert 10 values in the table
+
+4.drop table employeeInfo
+5.drop database  employeeManagementDB
+---------------------------
+	Today
+	We did study Normalization in detail with example
+	Theory on database management system (flatfile, problems, OLAP, OTLP etc...)
+	SQL as a language
+	 Sub Languages for SQL 
+
+------------------------------
+	Read 
+	https://www.w3schools.com/sql/default.asp
+	

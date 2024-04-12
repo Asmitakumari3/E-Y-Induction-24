@@ -1,0 +1,10 @@
+Do not share the table - it is not safe- also tables are going to consume space
+instead share a view - it is more safe and they do not consume space
+
+	you do not need to learn new syntax for this 
+	
+	just 1 line before your select statement
+
+	create view viewname 
+	as 
+	select statement	

@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\bin\Debug\net7.0\collection_demo.exe
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\bin\Debug\net7.0\collection_demo.deps.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\bin\Debug\net7.0\collection_demo.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\bin\Debug\net7.0\collection_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\bin\Debug\net7.0\collection_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\obj\Debug\net7.0\collection_demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\obj\Debug\net7.0\collection_demo.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\obj\Debug\net7.0\collection_demo.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\obj\Debug\net7.0\collection_demo.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\obj\Debug\net7.0\collection_demo.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\obj\Debug\net7.0\collection_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\obj\Debug\net7.0\refint\collection_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\obj\Debug\net7.0\collection_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\obj\Debug\net7.0\collection_demo.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 4 - Collections\collection_demo\collection_demo\obj\Debug\net7.0\ref\collection_demo.dll

@@ -1,0 +1,13 @@
+Add a class Employee
+5 variable as shown 
+create 5 properties for the same
+
+Add a class BankAccount
+add 5 variables
+v_accNo, 
+v_accName, 
+v_accBalance, 
+v_accType,
+v_accIsActive
+
+create 5 properties for the same

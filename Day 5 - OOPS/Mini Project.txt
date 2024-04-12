@@ -1,0 +1,51 @@
+Create a new Console App : NewBankingSystem
+
+	Add Below Folders
+		Accounts
+		Services
+		Investment
+		
+		In Accounts Folder, add below class
+		SavingsAccount
+			Add Below Methods
+			a method that returns double : withdraw, return some amount
+				public double Withdraw()
+				{	
+					return 2000;
+				}
+			a method that returns double : deposit, return some amount
+			a method that returns double : transfer, take 2 parameters
+							int fromAcc, int toAcc, double amt
+					 		, return some amount
+
+			a method that returns double : checkBalance, return some amount
+
+		In Service Folder, add below Classes
+			BillPayService
+				a method which returns string : PayElectricityBill - take parameter amt
+					return bill paid successfully
+				a method which returns string : PayGasBill - take a parameter amt
+					return GAS refilled successfull
+				a method which returns doulbe : checkGasBill - take a parameter, customerID
+					return some amount
+
+		class:CustomerService
+			a method which ruturns double : GetRelationShipManagerNumber - return some value
+			a method which return int : ApplyCreditCard - return applynumber - some number
+
+		In Investment Folder, add below class
+			FD
+				add methods 
+					  OpenFD - return a string - parameter - amount
+					  CloseFD - return a string - parameter - FdID
+					  GetFDRates - return a double - some rate (eg.6.5 or 7.1...)
+			Equity
+				add methods
+			BuyStock (take parameter, stockId, qty) - return string - StockBuy Successfull
+			SellStock (take parameter, stockId, qty) - return string - StockSell Successfull
+			GetInvestmentValue - return some value
+			
+
+
+
+

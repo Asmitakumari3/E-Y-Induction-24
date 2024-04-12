@@ -1,0 +1,6 @@
+Name : Karan Agarawal
+City : Pune
+Dish : Chinese
+Sport : Football
+Movie : KGF
+Description : I am Karan, I love playing football and cricket, I am a designer by profession, I like to travel, make new friends you can connect with me for more information over an email at karan@gmail.com
