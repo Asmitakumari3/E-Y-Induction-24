@@ -1,0 +1,49 @@
+ADO.Net Task - Time - 2:38 - 3:38  
+
+	you can use BankingDB and accounts Table (you can create a new one if you do not have)
+
+1. create a new application - BankingAPP
+2. Give options to the user as below
+	1. Open New Account --perform insert
+	2. WithDraw (ask accNo and amount) -- perform update
+
+		Please enter account no
+		int accNo = convert.toint32(console.readline())
+		please enter amout to withdraw
+		int amt = convert.toint32(console.readline())
+
+
+		udpate accountsInfo set accBalance = accBalance - @amt where accNo = @accNo
+
+
+ 	3. Deposit (ask accNo and amount) --perform update
+	4. Delete Account (delete the account)
+	5. Check Account Info (we will learn this once your 4 options are done)
+			pass account No and display the account details
+	6. View All Accounts (this does not need a parameter)
+			select * from accountsInfo
+
+		We saw how to execute - Insert, update and Delete
+
+			C - create - insert (cmd.ExecuteNonQuery())
+			R - Read - Select  (cmd.ExecuteReader())  -- to selet the data
+			U - update - edit (cmd.ExecuteNonQuery())
+			D - Delete - remove(cmd.ExecuteNonQuery())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

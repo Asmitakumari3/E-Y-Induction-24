@@ -1,0 +1,78 @@
+Linq - Language Integrated query 
+This is a language we use to work with data from any source( FileSystem, Databases, Collections etc..)
+
+
+Let us understand keywords we use here
+
+1. var - this is used like a datatype - where we do not know the size of data which is going to come
+	now one - we will stop useing int, string, double, bool etc...
+	
+		var age = 10;  
+		var myage = "Twenty";
+		var height = 5.8;
+		var isPermenant = true;
+
+--------------------------------------------------------------------------
+	var will auto convert to datatype during compilations
+		
+		var age = 10;   // will get compiled to Int32 (if u see MSIL code)
+
+
+	var data = LINQ Query 
+		(reverse SQL query)
+
+2. LAMBDA Expressions - this is a short habd LINQ
+
+-----------------------------------------------------------------------------------------------------
+				LINQ On Collections
+
+	we will have collection of BankAccounts (LIST) - around 10 bankAccounts in 1 collection of List
+	we will than want to perform below operations on the list
+
+	1. Add new Account
+	2. Delet / remove
+	3. Edit
+	4. Get summary like - sum, min, max, count, avg
+	5. Sort the Accounts based on type or name 
+	6. Filter data - search based on accNo, branchNo etc..
+
+		Later - similar operation on bankAcc table will be done with DB useing LINQ
+		and you will see no difference 
+
+--------------------------------------------------------------------------------------------------
+		let us ready the data
+	1. create a new console app - LINQ_To_Collection
+	2. Add a new class Accounts
+		add below properties
+			accNo, accName, accType, accBalance, accIsActive, accBranch
+	3. in program.cs
+		create a list of Accounts
+		add 10 accounts to the same
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

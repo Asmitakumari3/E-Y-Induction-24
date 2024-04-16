@@ -1,0 +1,112 @@
+szzz m1. Create a new database BankingDB_EF
+2. Create 2 tables
+	branchInfo
+		branchNo, branchName, branchLocation (brNo is a PK)
+		add 5 records
+	accountsInfo
+		accNo, accName, accType, accBalance, accIsActive, accBranch(accNo is PK, accBranch is FK)
+		add 10 records
+
+3. create a new console app - bankingAPP_EF
+4. install 4 nuget packages
+5. download poco classes
+
+----
+	if you make some changes in the database, add a new table or change the column data type, add a new column, delete a column, how will those changes come in the application
+	let us do that activity
+
+
+6. in the database add a new table TransactionInfo
+		trNo int identity primary key
+		fromAccNo (fk to accountsInfo)
+		ToAccountNo (fk to accountsInfo)
+		Amount
+		datetime
+
+	add 10 records
+
+7. add a new column to branchInfo table - branchEmail varchar(30) - unique key
+			update the table data
+
+
+
+8. in visual studio - run that scffold-DBContext command again with -Force in the end
+
+	This will override all the poco classes
+	-F is for that rights to override the files
+
+9. check the solution explorer you will get a new file transactionInfos
+10. check branchInfo, you will also see a new property branchEmail
+
+		Lunch break 1:15 - 2:15
+
+
+
+------------------------------- we now have 3 tables with appropriate data --- we will fire LINQ queries
+
+1. in program.cs comment everything
+2. EmployeeInfoDBContext db = new EmployeeInfoDBContext();
+
+	1. display all accounts
+		var allAcc = from a in db.AccountsInfo
+			     select a;
+
+	2. display only limited columns, with alias and calculation		
+		var allAcc = from a in db.AccountsInfo
+			     select new 
+			     {
+				[Account Number] = a.accNo,
+				[Account Name] = a.accName,
+				[Account Balance] = a.accBalance,
+				[Account Intrest] = a.accBalance * 0.1
+			      };
+
+		foreach(var itm in allAcc)
+		{
+			cw(itm.[Account Number]);
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

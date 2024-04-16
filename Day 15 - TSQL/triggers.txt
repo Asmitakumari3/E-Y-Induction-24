@@ -1,0 +1,18 @@
+create below tables
+
+1. stockInfo
+	productid int primary key
+	pName 20 varchar
+	pPrice
+	pAvailableQty
+add 5 stocks of your choice
+2. salesInfo
+	saleId int primary key
+	productId (foreign key to stock info)
+	saleQty	
+
+3. reorderInfo
+	rId (PK)
+	pId (foreign key to stockInfo)
+	availableQty
+	reorderQty

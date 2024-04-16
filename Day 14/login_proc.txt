@@ -1,5 +1,4 @@
 create a table LoginInfo
-
 	userName varchar(20) primary key
 	password
 	accStatus varchar(20)
@@ -8,6 +7,8 @@ create a table LoginInfo
 --------------------
 	we need a procedure called login, user will pass username and password
 	and we create a new login, accStatus will be marked as New, attempts 0
+
+	lock user account after 3 failed attemps
 
 -----------------------------------------------------------------------------------
 	create table loginInfo

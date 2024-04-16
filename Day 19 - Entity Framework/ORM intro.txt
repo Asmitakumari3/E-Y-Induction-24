@@ -1,0 +1,34 @@
+			To work with Databases
+		we need to perform below operations (CRUD)
+
+		1. select the data
+		2. select with filter
+		3. Select with sort
+		4. Select with calcualtion
+		5. select with 2, 3 and 4
+		6. select with aggregation (sum, min, max, count, avg)
+		7. select with grouping
+		8. Insert
+		9. update	
+		10. delete
+		11. execute stored proc (in case of databases)
+		12. perform transactions
+
+------------------------------------------------------------------------------------------
+		When it comes to databaes - ADO.net was 1 of the best and fastest option
+		but it is to lenghty and lots of codeing, not faster development, and not standard
+
+		we now have have a design pattern which is common in all the framework(.Net, java, PHP, Node)
+					ORM - Object Relation Mapping
+
+		in an application, it will have POCO classes  (Plain C# objects) in .net
+
+			application will have a class mapped to table in a database
+		
+	in .Net we have a seperate runtime for the same called - EntityFramework
+
+
+
+
+
+

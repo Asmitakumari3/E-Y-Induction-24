@@ -1,0 +1,17 @@
+close the current application
+------------------------
+
+
+
+1. Create a new Winform Applicaiton - EmployeeManagement
+2. Application will have below Forms
+	a. Add new Employee
+		Labels and textboxes for 
+			EmpNo
+			Employee Name
+			Employee Designation - comboBox (fill, HR, Developer, Manager)
+			Employee Salary
+			Employee Dept No
+			Employee Is Permenant - 2 radiobutton, yes and No
+			
+				Button (Add) 

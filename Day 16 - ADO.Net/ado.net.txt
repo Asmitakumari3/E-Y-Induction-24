@@ -1,0 +1,21 @@
+using System.Data;
+using System.Data.SqlClient;
+
+SqlConnection con = new SqlConnection("");
+SqlCommand cmd = new SqlCommand(" update empInfo set empSal = 500 ",con);
+	
+
+ int rowsAffected = cmd.ExecuteNonQuery(); //for DML operations -- this returns numer of rows affected (int)
+	console.writeLine("Salary of " + rowsAffected + " Were changed");
+	
+	cmd.ExecuteReader(); //for select query
+	cmd.ExecuteScalar(); //for Aggegrate Functions, sum, min, max, count, avg
+
+---------------------------------------------------------------------------------
+
+	To see scalar,
+		in the same application
+	
+		
+	
+	 

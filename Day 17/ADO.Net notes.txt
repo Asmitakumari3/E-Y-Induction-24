@@ -1,0 +1,26 @@
+				ADO.Net - ActiveX Database objects
+
+
+		namespaces  - System.Data;
+			    - System.Data.SqlClient; --to perform CRUD operations on sqlserver
+			    - System.Data.OracleClient; -- to perform CRUD operations on oracle
+		classes
+			    - 1.SqlConnection; --this is a class which allowd to connect to server
+ 
+--windows authentication
+sqlConnection con = new Sqlconnection("server=;database=;integrated security=true"); 
+--server authentication
+sqlConnection con = new Sqlconnection("server=;database=;username= ;password= "); 
+
+			    - 2. SqlCommand; --to write your sql query/sp
+sqlcommand cmd_newemp = new SqlCommand("insert into empinfo values(....)",con);[
+
+
+
+
+	
+		Methods
+
+
+	
+

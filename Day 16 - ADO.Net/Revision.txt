@@ -1,0 +1,97 @@
+			Revision
+
+	a. What is a Namespace ?
+		
+		Collection of classes which will allow us to do specific operations
+		eg.System.IO - will allow us to do file specific operation like, create ile, write, 			read,etc.
+
+	b. classes - we have classes made up of Methods, constructors, properties etc..
+		it is a blueprint and we create objects of the same to perform operations
+
+	c. OOPS 
+		Abstraction
+		Encapsulation	
+		Inheritance
+		Polymorphism
+---------------------------------------------
+		overloading
+		public int Add(int num1, int num2)
+		{
+			return num1 + num2;
+		}
+
+		public int Add(int num1, int num2, int num3)
+		{
+			return num1 + num2 + num3;
+		}
+
+		public int Add(int num1, int num2, int num3, int num4)
+		{
+			return num1 + num2 + num4;
+		}
+	
+		public int Add(string num1, string num2)
+		{
+			return num1 + num2;
+		}
+
+------------------------------------------------------------------------------------------
+	Polymorphism
+		public class Accounts
+		{
+			public virtual double Withdraw(int amt)
+			{
+				availableBalance = availableBalance - amt;
+			}
+		}
+
+
+		public class Savings : Accounts
+		{
+			public override double WithDraw(int amt)
+			{
+				if(amt > 20000)
+				{
+					throw new Exception("Savings cannot withdraw more than 20K");
+				}
+			}
+
+		}
+
+
+		public class Current : Accounts
+		{
+			public override double WithDraw(int amt)
+			{
+				if(amt > 100000)
+				{
+					throw new Exception("Savings cannot withdraw more than 20K");
+				}
+			}
+
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
