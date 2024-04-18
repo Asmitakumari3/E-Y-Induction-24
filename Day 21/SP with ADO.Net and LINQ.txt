@@ -1,0 +1,93 @@
+we learned fundamentals+ of ADO.Net and LINQ both
+we used SQL Queries in both of them (also called as inline queries) - which is a very bad practice
+
+	This is not good for below reasons
+		1. Performance - when number users are more
+		2. Not good for security - as it is exposing name of the table/view 
+			there are tools which can revel the name of table and it becomes easy for hackers 
+			to fire SQL Injections on databases = which will corrupt the server data
+
+		Thus it is always recommended to use SP - stored procedures from front end apps, easy, fast and appropriate way to create application 
+	Today will  look at Execution of SP from frontend - useing ADO.Net and then LINQ
+------------------------------------------------------------------------------------------------
+		We will have SP for below operations
+		1. Select all the data - can optionally sort data
+		2. select with parameter (pk key val and get 1 record)
+		3. select with parameter (with somecol and get multiple records) - filter
+		4. Insert a new record
+		5. delete a record
+		6. update an record
+
+----------------------------------------------------------------------------------------------
+	1. create a database empDB_SP
+	2. create a table deptInfo (deptNo pk, deptName, deptCity)
+		insert 5 records in the same
+	3. create SP as per above requirements 
+
+--------------------------------------------------------------------------------------------------
+`		ADO.Net SP executions	
+
+	1. create a new console app - SP_Execution_Demo_ADO
+	2. Add a nuget package for ADO.Net (System.Data.SqlClient)
+	3. in Program.cs	
+			create a new instance of SqlConnection and ready the connection
+	
+
+	sqlcommand cmd = new sqlCommand(...,con);
+	
+
+	cmd.ExecuteNonQuery();  -- DML statements (insert, update and delete)
+	cmd.ExecuteReader(); -- for select the data, applicable even for 
+				where, orderby, groupby, joins etc....
+	cmd.ExecuteScalar(); -- for select - but for execution of Agegrate function -sum, min, max, c, avg
+
+
+	**when you use ExecuteReader, and if select statement is returning multiple values
+	we use special datatype to read the column value
+
+	**SqlDataReader
+
+SqlDataReader rd = cmd.ExecuteReader(); //this will execute and point just before first line first column
+	to move to next line we use 
+	rd.Read(); 
+	and then you can read
+	rd[0]
+	rd[1]
+	rd[2]
+	rd[3] -- if you do not have 4th col then your application will give an error
+	rd.read();
+	rd[0]
+	rd[1]
+	rd[2]
+
+		instead of writing same lines again, write a loop
+
+	while(rd.read())
+	{
+		
+		rd[1]
+		rd[2]
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

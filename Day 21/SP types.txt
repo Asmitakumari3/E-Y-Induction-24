@@ -1,0 +1,4 @@
+SP types
+1. SP without parameters (first 1 sp)
+2. SP with IN parameter (sp 2,3, 4,5,6) -- user passes the parameter value to program
+3. SP with the OUT parameter

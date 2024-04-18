@@ -1,0 +1,140 @@
+1. for every linq query (from any source) -- below is the format
+
+	var variableName = from pointerVariable in source	
+			    select pointerVariable;
+	
+	eg.
+	var acc = from a in db.accountInfoes
+		  select a;
+
+	//write a foreach loop and iterate through acc 
+-----------------------------------------------------------------------------------------------------------
+
+
+
+We will want to display the below details
+
+1. display all the accounts from accounts table
+	var acc = from a in db.accountInfoes
+		  select a;
+
+2. display all the branches from branchInfo table
+	var branches = from b in db.branchInfoes
+			select b;
+
+3. display all the accounts from accounts table which are Savings type
+	var accSavings = from a in db.accountsInfos
+			 where a.accType == "Savings"
+			 select a;
+4.display all the accounts from accounts table which are inactive
+	var accPermenat = from a in db.accountsInfo
+			   where a.accIsActive == 0
+		          select a;
+
+5. display all the accounts from accounts table which are of type PF and inactive
+	var accPF_In = from a in db.accountinfoes
+			where a.accType == "PF" && a.accIsActive == false
+			select a; (|| for or)
+
+6. display all the accounts from accounts table, display the data in order of Name (A-Z)
+	var accName = from a in db.accountInfoes
+		      order by a.accName
+		      select a;
+7. display all the accounts from account table, which has balance more than 25000 only, display in order or 			balance haveing higher balance on top
+
+	var accountFiler = from a in db.accountInfoes
+			  where a.accBalance > 25000
+			 order by a.accBalance descinding
+			select a;
+8. display total of all the account balance
+	var total = (from a in db.accountInfoes 
+			select a.accBalance).Sum();
+
+	var total = from a in db.accountsInfoes
+			select new { total_balance = a.sum(a => a.accBalance) }  //old syntax LAMBDA express
+
+9. display total Inactive accounts
+	var inactive = (from a in db.accountsInfoes			
+			where a.accIsActive == "false"
+			select a.accIsActive).count();
+
+10. we want to display accName as Name, 
+	       accBalance as AvailableBalance 
+	       10% of accBalance as Intrest from account table
+
+	var acc = from a in db.accountInfoes
+			select new 
+			{
+				Name = a.accName, 
+				AvailableBalance = a.accBalance, 
+				Intrest = a.accBalance * 0.1
+			};
+
+
+11. JOIN data from both tables and display
+	display accName, accType, accBalance, branchNo, branchName, branchLocation
+
+	var accDetails = from a in db.accountsInfoes
+			  join db.branchInfoes
+			 on 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

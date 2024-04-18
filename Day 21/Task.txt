@@ -1,0 +1,41 @@
+1. Create a database flightDB_SP
+2. create a table flightInfo
+	flightNo, flightSourceCity, flightDestinationCity,flightStatus, flightFare
+		flightstatus add a constraint (Scheduled, Completed, In Progress, cancelled)
+	add 5 records in the table
+3. create below SP's
+	a. select all the records from the table
+	b. select 1 record based on flightNo
+	c. select all records from source and destination
+		exec proc_searchFlight 'Mumbai','GOA'
+	d. add a new flight
+	e. delete a flight based on flightNo
+	f. update flightStatus based on flightNo
+
+	Time  10:40 - 11:15 
+	Tea Break - 11:15 - 11:35
+----------------------------------------------------------------------
+Task : Revision
+create a new application - flightAPP_ADO_SP
+
+execute the first 3 procedures you had created 
+
+
+	Those who complete can try to execute 4th, 5th and 6th Insert, update and delete
+		everything is same, just have to use ExecuteNonQuery() instead of Executereader()
+	int result = cmd.ExecuteNonQuery(); --this will return number of rows affected on table
+	if(result > 0)
+	{
+		cw("Record added")
+	}
+	else
+	{
+		cw("Operation failed")
+	}
+
+		update deptInfo set deptName = "Cafe" where deptLoc = "Mumbai"
+
+	
+
+
+	

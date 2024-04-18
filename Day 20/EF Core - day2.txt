@@ -1,0 +1,21 @@
+1. Create a new database - BankingDB_EF
+2. Add 2 tables in the database
+	branchInfo
+	accountsInfo
+	insert some records
+3. create a new project - BankingAPP_EF
+4. Enable Entityframework in the same app
+	Install Nuget packages - solution explorer -> right click project -> Add -> Nuget package-> Browse
+			search EntityFrameworkCore
+
+		a.Tools
+		b.Design 
+		c.SQLServer
+		d.EntityFrameworkCore
+
+5. Download POCO classes ->Tools -> Package Manager -> Package Manager console
+	Scaffold-DbContext "connection"  -Provider Microsoft.EntityFrameworkCore.SqlServer
+	-outPutDir folderName
+6. You will get 3 files - 2 for tables and 1 is DbContext File
+7. We create new instance of DbContext in program.cs and write your linq queries on the same
+			    
