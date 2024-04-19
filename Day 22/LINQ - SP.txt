@@ -1,0 +1,21 @@
+LINQ - SP
+
+1. create a new database insuranceDB_SP_LINQ
+	2. create a table - policyDetails
+		PolicyNo int pk
+		policyName varchar (google some name from intert and get some names of the policies)
+			5 records
+		policyPremieum (this between 5000 and 50000)
+	3. create SP
+		a. get all the policies
+		b. get policy by policyno
+		c. get policy by name
+		d. get policy between range (eg. 8000 and 12000)
+		e. add a new policy
+		f. edit policy premieum by passing the name
+		g. delete policy by no
+	4. create a new console app LINQ_SP
+	5. enable entity framework
+	6. download poco classes
+
+---------------------------------------------------------------------------------------
