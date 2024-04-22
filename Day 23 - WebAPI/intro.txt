@@ -1,0 +1,51 @@
+https://jsonplaceholder.typicode.com/photos
+
+now this data can be consumed in 
+.net
+java
+angular
+react
+c++
+etc.......
+
+
+but no knows where is data coming from ..
+
+as a developer, we need to learn 2 things
+a. how to develop this api 
+b. how to consume this api in .net / angular / java - frontend application 
+---------------------------------------------------------------------------------------------------------
+
+
+
+Internet / web which works on Http protocol,
+
+Http protocol has verbs which understands users demand
+
+4 basic verbs are
+
+HttpGET (when user wants to get something from the server)
+HttpPost (when user wants to give something to the server, upload a file, pass a new emp record, 
+		create a new resource on server)
+HttpPut (when user wants to modify/edit something on the server, edit request)
+HttpDelete (when user wants to delete the resource on the server)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

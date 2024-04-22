@@ -15,3 +15,4 @@ close the current application
 			Employee Is Permenant - 2 radiobutton, yes and No
 			
 				Button (Add) 
+3. Use ADO.net to perform CRUD operations on the same
