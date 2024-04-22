@@ -1,0 +1,97 @@
+Create first api
+
+1. start visual studio
+2. create new project
+3. type web in the search box
+4. choose ASP.Net webapi (C#) project
+5. click next, enter name of project (greetingsAPI) and choose day 23 as folder location
+6. check solution explorer (no read to open any file)
+7. run the application
+8. it will open a browser, which would have name of your api (greetingsAPI)
+9. list of endpoints, expand it, expand (GET, /weatherforcast)
+10. Try it out(right hand side)
+11. execute, u will get the output in the below section, also u can copy the requesturl and paste on 	
+	other browser window
+
+-------------------
+12. right click on controller folder - add contoller - api on left side - Empty Api controller
+
+13. give name - greetingsController.cs (remember anyname has to end with controller)
+
+14. you get a class which derives from controllerbase
+
+15. write your method
+
+ [HttpGet]
+ public IActionResult Greetuser()
+ {
+     return Ok("Hello and Welcome to WebAPI development");
+ }
+
+16. we added more methods like Greetuser(string name), calculate 
+
+17. Add a  new controller - friendsController
+	here we will add an List<string> friends = new List<string>(){ "Nikhil","Akshay","Prerna"}
+
+	we want to do various operations on this list
+		like
+		a. get all the friends
+		b. search a friend by position no(index)
+		c. sort the friend in asc or desc order
+		d. count total friends
+		e. filter the friends by characters(get all friends name starting with "A"
+
+when ever a new/refresh request comes to server, a new object of controller is created and the friends variable will get re-initilized from the beginning
+
+	if you do not wish this (which you will want to) - tell the runtime, do not recreate the friends list object, create it only for the very first time a request comes, and then keep useing the same till server stops 
+as we want server to use the same list, we will make it static so that it does not get overriden
+
+		f. Add a new Friend (HttpPOST)
+		g. Delete a friend (HttpDelete)
+		h. Edit a friend (HttpPut)
+
+
+18. let us return custom data type
+	a. create a new class, Friend
+	b. add below properties,
+		friendName
+		friendEmail
+		friendMobile
+		friendAddress
+		friendNickName
+		
+	c. in the friendsController, add a new action method
+		
+		[HttpGet("bestfriend")
+		public IActionResult GetBestFriendDetails()
+		{
+			Friend bestFriend = new Friend()
+			{
+			  friendName = "",
+			  friendEmail = "",
+			fill all other details
+			}
+			return Ok(bestFriend);
+		}
+
+		test the output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

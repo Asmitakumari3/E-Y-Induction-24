@@ -1,0 +1,24 @@
+1. Tomorrow - 20 MCQ test - OOPS
+2. Wednesday - Milestone 3 - 4 question 
+		(LINQ and Entityframework, 1 on ADO.Net)
+3. Let us do a Task on API - need to be submitted
+
+---------------------------------------
+	1.create a new WebAPI project - productsAPI
+	2.Need a controller - productsController
+	3. create a List<string> productList = new List<string>(){}
+		add 10 product (eg. Pepsi, Maggie, Good Day....)
+	4. We need below Actions methods as an output
+		1. get list of all the products
+		2. get products sorted in desc order and asc order based on 
+			user input
+		3. get total products
+		4. get product which starts with user input
+		5. Add a new product
+		6. Delete the product by Name
+		7. Edit the prouct 
+		8. create a new custom data type productInfo
+			add pId, pName, pCategory, pPrice, pQty
+			return the object of this type
+	
+	
