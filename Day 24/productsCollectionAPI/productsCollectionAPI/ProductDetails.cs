@@ -54,6 +54,65 @@
                        select p).ToList();
             return data;
         }
+
+        public List<ProductDetails> GetProductInStock(string isavailable)
+        {
+            if (isavailable == "yes")
+            {
+                var data = (from a in productsList
+                           where a.pIsInStock == true
+                           select a).ToList();
+                return data;
+            }
+            else
+            {
+                var data = (from a in productsList
+                            where a.pIsInStock == false
+                            select a).ToList();
+                return data;
+            }
+        }
+
+        public int TotalProducts()
+        {
+            var total = productsList.Count;
+            return total;
+        }
+
+        public string AddNewProduct(ProductDetails product)
+        {
+            productsList.Add(product);
+            return "Product Added";
+        }
+
+        public string DeleteProduct(int id)
+        {
+            var data = (from p in productsList
+                        where p.pId == id
+                        select p).Single();
+
+            productsList.Remove(data);
+            return "Product Deleted Successfully";
+        }
+
+        public string EditProduct(ProductDetails product)
+        {
+            var data = (from p in productsList
+                        where p.pId == product.pId
+                        select p).Single();
+
+            data.pName = product.pName;
+            data.pPrice = product.pPrice;
+            data.pCategory = product.pCategory;
+            data.pIsInStock = product.pIsInStock;
+            return "Product Detail updated";
+
+        }
+
+
         #endregion
     }
 }
+
+
+
