@@ -1,0 +1,22 @@
+WebAPI Review
+
+1. What is WebAPI - it is all about shareing the data endpoints to customers, clients, internal team without shareing the data access
+
+2. WebAPI is an implementation of REST services 
+	REST - Representational State Transfer - (transfer of data) - from client to server and server to clie
+3. Create a new application in .net core and C# as a language
+
+4. We can share any data from any data source (Collection, primitive data, data base, files etc..)
+
+5. WebAPi supports all the HttpVerbs for data (HttpGet, HttpPost, HttpPost, HttpDelete)
+
+6. We use IActionResult for createing methods/functions to return the data as well as statuscode
+	200 -OK
+	201 - Accepted
+	404 - Not Found
+
+7. WebAPI will share data in JSON format (also supports XML) - if asking client says I want data in xml, IactionResult will serialize(convert) data in xml and send, bydefault it uses JSON 
+
+8. We created first application on List of string (friends and products)
+--------------------------------
+	Today will have WEBAPI application on Collection of Object and use EF to perform the same on database
