@@ -7,7 +7,14 @@ namespace productsCollectionAPI.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        ProductDetails pObj = new ProductDetails();
+        ProductDetails pObj; //obj will be created and destroyed by runtime
+                             //collect that obj reference as soon as a new obj of product controller gets activated
+                             //you do it in a contstructor
+
+        public ProductsController(ProductDetails pObjREF)
+        {
+            pObj = pObjREF;
+        }
 
         #region Get Methods
         [HttpGet("allproducts")]
