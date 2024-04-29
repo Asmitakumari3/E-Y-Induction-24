@@ -1,0 +1,36 @@
+	Consume REST API Service - from C# 
+
+https://jsonplaceholder.typicode.com/posts
+
+
+
+--How do we consume Rest API services in app
+	This is a standard set by W3C -- 
+		They have given a standard class for programming language useing 			OOPs
+
+		C#, Java, Typescript(For Angular, React), VB
+			HttpClient -- this is a standard class we use for data 						consumption
+			fetch (API) - for javascript calling
+
+		This standard allows us to make all the calls
+			GET, PUT, POST and delete
+
+		we create object of HttpClient and specify which format of data we want(JSON or xml) and make a call
+
+
+Steps--
+
+1. You need to create a POCO class with all the properies you want to consume and display
+
+2. in the poco class, create a method to consume the data, keep return type they type of data you want
+
+
+
+
+
+
+
+
+
+
+

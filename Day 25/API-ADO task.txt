@@ -1,0 +1,16 @@
+1. create a new application BankingAPI
+2. in the banking api, we will use ADO.Net to interact with accountInfo table 
+		from bankingDB
+3. create CRUD operations for the same 
+	a. give all the accounts data
+	b. give accounts data based on accno
+	   get accounts data based on accountType
+	c. get total accounts	
+	d. add a new account
+	e. update the account
+	f. delete the account
+
+-----------------------------------------------------
+	
+	Test 1 MCQ (OOPS)
+	Test 2 Code Writing (OOPS)

@@ -1,0 +1,40 @@
+1. we have a database - empDB_dataAnnotation - which has empInfo table, we will use this, this table has a lot of constraint
+
+2. we will create a new MVC web app - to understand, Data annotation more clearly
+
+3. enable EF in the project by adding 4 nuget packages
+
+4. download poco classes
+
+5. add a new controller - MVC controller with EF
+	this will create views for us on empInfo
+		List of employees(Index.cshtml)
+			add
+			update
+			delete
+
+	this will want to use DI by default, halfly configured and half we have to 
+	we added DBContext class as scoped
+
+6. in the view/shared folder, you will find a file called, layout.cshtml
+	copy line 25,26 and 27, paste it, change the name of asp-controller to name of your controller and lable and default action name(viewname)
+
+7. run the application test the application, 
+	we tested  by inserting wrong values for all constraints, in 
+		add, edit page
+
+8. we also noticed name of columns are printed by default on all the pages
+	this is not presentatable
+
+9. thus we will use data annotation in Poco class and fix the above problems	
+	(constraints and presentation of columns)
+
+
+
+
+
+
+
+
+
+

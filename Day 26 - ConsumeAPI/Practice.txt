@@ -1,0 +1,52 @@
+Practice
+Make a HttpClient - RestAPI call to 
+
+https://jsonplaceholder.typicode.com/comments
+https://fakestoreapi.com/products
+
+-----
+Task - till 11:30
+make a call to below url
+
+https://jsonplaceholder.typicode.com/posts/id ( 1 to 100)
+
+first make a call with hardcoded id
+later take id from user and display the post
+
+Make a get call to :
+https://fakestoreapi.com/products/id-
+-------------------------------------------------------------------------------
+heard or saw below error 
+	CORS - Cross Origin Resource Shareing ?
+
+all the calls you made above is free for testing - they are not real world data, 
+	same url for learning
+
+	if someone gets the url - they can make a call easily and get the data
+
+	and can misuse the data
+
+	Thus the webapi - application does not allow to get the data to any application - unless and untill it is made available for that appliation 
+
+	Thus when you create a webapi application and share the endpoints with them they will not be able to make a call, it will show an error (CORS)
+	we need to learn how do we allow them to consume our data by configuring CORS
+-----------------------------------------------
+	1. create a new WebAIP applicatin - CORS_BankingAPI
+		use EF core to give the accountsinfo data
+
+	2. create a console application, make a call to accountsinfo endpoint
+		we will get an CORS error, which we will learn to fix
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

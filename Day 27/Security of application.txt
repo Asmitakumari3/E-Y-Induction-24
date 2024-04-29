@@ -1,0 +1,20 @@
+Security of application
+
+1. Authentication
+	This is to check if user if logged in, or has a certificate
+	i.e server will check if you have a valid username and password or 			certificate
+
+	or show your id to visit inside the office
+	show ur ticket to visit inside the airport
+	show your ticket to visit inside the movie theater
+	
+2. Authorization
+	after you are authenticated, are you authorised to perform action you wish 	to perform?? 
+
+So how do you authenticate and authorize ?
+	a. by asking username and password
+	b. by installing certificates on their machines
+	c. use oAuth (use existing credentials like facebook, linkedin, twitter, gmail, office id etc....)
+
+3.(oAuth)
+	allow user to login useing facebook or gmail
