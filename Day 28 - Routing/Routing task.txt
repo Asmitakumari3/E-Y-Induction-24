@@ -1,0 +1,103 @@
+Routing - is a part of web applications 
+	used in ASP.Net MVC, WebAPI, (also in Angular, but has a different 						meaning and different purpose)
+
+
+	A real world application has more than 1000's of endpoints
+		you had created an app, which had just 3 controllers, you had almost 6-7 endpoint(action methods) in 1 controller, which makes around 18 endpoints
+
+	think of Amazon, Netflix, Zomato
+
+	when server has to serve, 1000's of endpoints to 100000 of users everyhour
+
+	searching end point out of 1000's of endpoint, takes times
+
+	which will hit the performance, and users will have to wait for response which they do not like and thus they dont want to use the app
+
+	instead, server now can create an index of routs in memory and reach the
+	endpoint 10times faster rather than searching for route
+	which is a booster to performance
+
+	This feature was newly introduced in version 4 - we are useing  7
+	useage is most simple, just use proper naming conventions as per project documentation, use meaning ful names
+
+		This is the most simple topic in web - and most powerful well
+
+
+------------------------------
+	create a new WebAPI app - give it name as netflixApp_Routing
+
+	create below controllers
+		Thriller
+		Comic
+		Horror
+		Action
+		Romance
+		SciFic
+		Hollywood
+		Bollywood
+		Tollywood
+
+			add a Model class, MovieDetail
+				movieId,
+				movieName,
+				movieCategory (Thriller,Comic,Horror,Action,Romance,SciFic),
+				movieState (Hollywood,Bollywood,Tollywood)
+				movieActorName,
+				movieActress	
+
+		create  static list of MovieDetails,add 30 movies in the same	
+
+			add below methods in model
+			viewAllMovies
+			getMoviesByCategory
+			getMoviesByState
+			getMovieByName (singleMovie)
+			addNewMovie
+			deleteAMovie
+			updateMovie
+
+		all the controllers will have this action methods
+----------------------------------------------------------------------------------------------------
+		You have consumed a WebAPI in console app
+		1. create a new console, consume netflixAPI
+		2. you have made a get call	
+			display the movie detail by name
+		3. POST a new movie to api (make a call to addNewMovie) - this is not done in past
+
+
+
+		1. viewAllMovies
+		2. getMovieByName (this is not working)
+
+
+
+
+
+
+
+
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+

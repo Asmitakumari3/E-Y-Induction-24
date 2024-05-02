@@ -1,0 +1,42 @@
+						JavaScript
+
+1. This is completely different from Java - no relation with Java
+2. This is a Scripting language for WEB tect(not used on console or winForm)
+3. This is a standard by W3C and all the browsers has inbuilt support for JS
+4. It plays a very very important role for a web site
+5. Usage:
+	client side calculations
+	client side validation
+	client side error handling
+	client side beautification
+6. It is always used along with HTML
+7. Can be used with any framework with supports HTML (ASP.Net, MVC, PHP, Java Web etc..)
+8. JavaScript is case scencetive
+9. JavaScript is not Object Oriented, it is object based (some objects provided by JS, you cannot create a custom data type, classes, interface etc..)
+10. JQuery is a short hand library for javascript
+11. OOPS was added to JavaScript and, it was made more powerful, named as ECMA script (ES6), now ES7 and ES8
+12. Typescript is now based on ES7
+	(ECMA - is a Web Standard maintenance organization for European countries)
+	W3C is a world Wide Consortium which manages web, most of the powers and members was USA
+
+	European Computer Manufacturing Association 
+
+14. JavaScript can be written
+	a. internally in a file under the script tag (called as inline javascript)
+	b. in a .js file and can be referenced in anyfile (called as external javascript)
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		

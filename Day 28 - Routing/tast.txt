@@ -1,0 +1,40 @@
+public string AddNewMovie(MovieDetail newMovieDetails)
+{
+	movieList.Add(newMovieDetails);
+}
+
+
+public string updateMovie(MovieDetail changeMovieDetails)
+{
+	var movie = (from m in movieList
+			where m.movieId == changeMovieDetails.movieId
+			select m).toSingle();
+
+	  if(movie != null)
+	  {
+		movie.movieName = changeMovieDetails.movieName;
+		movie.actorName = changeMovieDetails.actorName;
+		movie.actressName = changeMovieDetails.actressName;
+		movie.movieState = changeMovieDetails.movieState
+	return "Movie details updated successfully";
+		
+	  }
+	  throw new Exception("Movie not found");
+}
+public string deleteMovie(int id)
+{
+	var movie = (from m in movieList
+			where m.movieId == id
+			select m).toSingle();
+
+	  if(movie != null)
+	  {
+		movieList.remove(movie);
+		return "Movie Deleted Successfully";
+	  }
+	else
+	  {
+		throw new Exception("Movie Not found");
+	  }
+}
+
