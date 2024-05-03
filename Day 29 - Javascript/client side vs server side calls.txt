@@ -1,0 +1,22 @@
+There are 2 ways to consume RestAPI data
+
+1. client side (scripting - JavaScript, typescript for the same)
+
+	a.This is the fastest way to get the data to client, 
+		client always wants the data as fast as possible
+
+	b. This is a direct call to the server - and that's why it is fastest
+
+	c. This technique should NOT be used when the data is sensitive, server address is not
+		sensitive (eg. credit card info, payment gateway, login passwords, otp etc..)
+
+		reason, when you write JavaScript, end user can view the complete code from browser
+
+	use it for calls like, getTemperature,get currencyExchangeRate,view cricket score etc...
+		
+2. server side (programming - c#, java, vb, c++ etc...)
+	This is the safest way to get the data, very highly secure
+	little bit slower than the above 1, as client will have to come to server first and then server will go to another server and get you the data
+
+
+

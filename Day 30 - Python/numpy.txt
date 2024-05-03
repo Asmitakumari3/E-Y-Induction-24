@@ -1,0 +1,14 @@
+numpy  - this is a library mostly used for working on numbers, data, arrays, list, tupple
+	etc..
+it gives us function 
+
+
+
+		As we know Python has more than 1000's of libraries for various activites
+
+		how to install any library
+
+		pip -- this is an installer will install any library
+
+			pip install numpy
+			pip install pandas

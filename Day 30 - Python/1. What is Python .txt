@@ -1,0 +1,14 @@
+1. What is Python 
+2. Install python
+3. Write python programs
+4. juypter notes
+5. libraries
+	numpy
+	pandas
+	matplotlib
+
+	there millions of such libraries
+		you can also create your own libraries and distribute it to the world
+
+
+	

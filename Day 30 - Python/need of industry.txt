@@ -1,0 +1,5 @@
+Forecasting
+EV - Human interactions with machines(Alexa, Siri..)
+Make a PPT - based on the topic
+Convert text into pictures, or read a picture and tell me something about it
+Predict the rains
