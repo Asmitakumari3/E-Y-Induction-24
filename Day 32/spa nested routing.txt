@@ -1,0 +1,163 @@
+close the current app, vs code and browser
+
+1. create a new angular spa app - personalProfile
+2. create a new folder component in src/app folder
+3. create below components in the component folder
+	Home
+	Aboutme
+	Contactme
+	Hobbies
+	EductionalQualification
+	WorkExpeience
+	SocialMedia
+	FutureGoals
+
+4. put the contents in .html file of all the above components - type it
+5. add some .css in all the components
+6. configure routing
+	a. routes.ts - all path and componentname
+	b. add routerLink in app.component.html
+	c. add RouterLink in import section of app.component.ts
+------------------------------------------------------------------------------------
+7. in .ts file of every component  - add the below properties
+	componentName:string = "Home"
+	developedBy:string = "Riddhi" (put different name in every component)
+	isTested:boolean = true;
+	favNumber:number = 20; (give some number)
+
+8. in the .html file of every component, let us display the properties
+	<div>
+		<h3> {{ componentName }} </h3>	
+		<h3> {{ developedBy }} </h3>	
+		<h3> {{ isTested? 'Tested':'Not Tested' }} </h3>	
+		<h3> {{ favNumber }} </h3>	
+	<div>
+
+9. stop the server
+	inside the contactme folder, create a new folder addresses
+		inside the addresses folder, create below components
+			Residential
+			Office
+			CollegeAddress
+			PermenantAddress
+
+10. in the .ts file of every component above (point 9)
+	create below properies with values
+		areaName:string = "Tirupati Nagar";
+		flatNo:number = 1202;
+		buildingName:string = "some name";
+		contactNo:number 90000;
+		pincode:number = 400002;
+
+
+11. in the .html of every component(point 9)
+		create a new div and add every propery in <h5> 
+		<h5> {{ areaName }} </h5>
+		<h5> {{ flatNo }} </h5>
+		<h5> {{ buildingName }} </h5>
+		<h5> {{ contactNo }} </h5>
+		<h5> {{ pincode }} </h5>
+
+		
+
+13. We will configure nested routing
+
+14. in the contact.component.html - in the below section
+
+	<ul>
+   		 <li> <a routerLink="resendentials"> Resendential </a> </li>    
+   		 <li> <a routerLink="office"> Work Address </a> </li>    
+   		 <li> <a routerLink="college"> College </a> </li>    
+   		 <li> <a routerLink="permenant"> Permenant Address </a> </li>    
+	</ul>
+
+		<router-outlet></router-outlet> 
+
+15. in the contact.component.ts,add below in the import section
+	 imports: [RouterOutlet,RouterLink],
+
+16. update the routes.ts - add children to the contact component with the same url/path mentioned in the ul
+	{ path:'contact',component:ContactComponent,
+		children:[        
+       			 {path:'resendentials',component:ResendentialComponent},
+       			 {path:'office',component:OfficeComponent},
+       			 {path:'college',component:CollegeComponent},
+       			 {path:'permenant',component:PermenantComponent},
+    ]},
+
+
+
+
+Lunch : 1:45 - 2:45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

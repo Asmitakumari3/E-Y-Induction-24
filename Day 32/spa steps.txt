@@ -1,0 +1,82 @@
+				Create an Angular SPA Applicaiton
+			which will have 
+
+			Home
+			About
+			Contact
+			History
+			News
+			Login
+			Register
+
+------------------------------------------------------------------------------------------------------
+	1. create a new angular app - angularSPA
+		ng new --name angularSPA
+	2. From terminal, we will point to APP folder
+		cd src\app
+	3. create a new folder - components
+		mkdir components
+	4. we will create the above components
+		cd components
+		ng g c --name home
+		ng generate component --name home (is also valid)
+		ng g c --name about
+		ng g c --name contact
+		ng g c --name history
+		ng g c --name news
+		ng g c --name login
+		ng g c --name register
+	5. we will go to every component and put the content in .html file (let us first work with html and 									    css)
+
+			<h1> Home (name of the component) </h1>
+		<div>
+			put a lot of contents about the component 
+		</div>
+
+	6. in css
+			.h1{ align-text: center} 
+			div{background-color:orange}
+
+	7. in app.component.html
+		remove everything and we will add 
+		<router-outlet></router-outlet>
+	8. in the routes.ts file, we will configure routing
+
+
+	9. in app.component.html, we will now create the links for all the components
+		
+<ul>
+  <li> <a routerLink="home"> Home  </a> </li>
+  <li> <a routerLink="about"> About  </a> </li>
+  <li> <a routerLink="contact"> Contact  </a> </li>
+  <li> <a routerLink="news"> News  </a> </li>
+  <li> <a routerLink="history"> History  </a> </li>
+  <li> <a routerLink="register"> Register  </a> </li>
+  <li> <a routerLink="login"> Login  </a> </li>
+</ul>
+
+		
+	10. add RouterLink in imports section of app.component.ts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

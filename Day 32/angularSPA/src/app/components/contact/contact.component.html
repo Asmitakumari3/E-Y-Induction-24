@@ -1,0 +1,20 @@
+<h1> Contact us </h1>
+
+<div>
+<p> Email : {{ "someone@somewhere.com" }}  </p>
+<p> Phone : 5408574387 </p>
+<p> Customer Care : 1800 1800 9898 7878 </p>
+</div>
+
+<ul>
+    <li> <a routerLink="resendentials"> Resendential </a> </li>    
+    <li> <a routerLink="office"> Work Address </a> </li>    
+    <li> <a routerLink="college"> College </a> </li>    
+    <li> <a routerLink="permenant"> Permenant Address </a> </li>    
+</ul>
+
+<router-outlet></router-outlet>
+
+<ul>
+    <li *ngFor="let f of friends"> {{ f }} </li>
+</ul>

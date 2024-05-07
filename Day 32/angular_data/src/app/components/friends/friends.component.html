@@ -1,0 +1,80 @@
+
+<div>
+    <h1> Primitive Data Type </h1>
+    <h3> {{ myName }} </h3>
+    <h3> {{ totalFriends }} </h3>
+</div>
+<hr/>
+
+
+<h1> Primitive Data Array </h1>
+
+<ul>
+    <li *ngFor="let f of bestFriends"> {{ f }} </li>
+</ul>
+
+<span *ngFor="let f of bestFriends">
+    <input type="checkbox"/> {{ f }}
+</span>
+
+<select>
+    <option *ngFor="let f of bestFriends"> {{ f }} </option>
+</select>
+
+<hr/>
+
+<h1> JSON Object </h1>
+
+<div>
+    <h4> Name : {{ bestFriendDetails.name }} </h4>
+    <h4> Friends Since : {{ bestFriendDetails.friendsSince }} </h4>
+    <h4> Email : {{ bestFriendDetails.email }} </h4>
+    <h4> Mobile : {{ bestFriendDetails.mobile }} </h4>
+    <h4> Insta : {{ bestFriendDetails.instaid }} </h4>
+    <h4> FB : {{ bestFriendDetails.fbId }} </h4>
+</div>
+
+<hr/>
+<h1> JSON Object Array </h1>
+
+<!-- <table border="1">
+    <tr *ngFor="let f of friendList">
+        <td> {{ f.friendName }}</td>
+        <td> {{ f.friendCity }}</td>
+        <td> {{ f.friendEmail }}</td>
+        <td> {{ f.insta }}</td>
+        <td> {{ f.fb }}</td>
+        <td> <button> Block </button> </td>
+        <td> <button> Delete </button> </td>
+    </tr>
+</table> -->
+
+<div *ngFor="let f of friendList" >
+    <div>
+        <h4> {{ f.friendName }} </h4>
+        <h4> {{ f.friendCity }} </h4>
+        <h4> {{ f.friendEmail }} </h4>
+        <h4> {{ f.insta }} </h4>
+        <h4> {{ f.fb }} </h4>
+        <button> Block </button>
+        <button> Delete </button>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
