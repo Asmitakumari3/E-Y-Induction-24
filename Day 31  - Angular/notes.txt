@@ -1,0 +1,22 @@
+3 variables in app.component.ts
+	empNo
+	empName
+	empDesignation
+	
+	
+
+	we should print this in app.component.html
+	<h1> {{ }} </h1>		
+
+
+4 variables in personaldetails.compoent.ts
+	emailAddress
+	mobileNo
+	bloodGroup
+	highestEduction
+	
+	we should print this in personaldetails.compoennt.html
+	<h1> {{ emailAddress }} </h1>
+	..
+	..
+	..

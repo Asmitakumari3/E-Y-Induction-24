@@ -1,0 +1,73 @@
+1. close the browser, close visual studio code
+2. open command prompt, point to day 31
+3. create a new angular application, 
+	ng new --name employeeAPP
+		choose css and say yes to SSR
+		open the folder in cs code
+4. in the app.component.ts
+	create belo variables in the class
+		empNo:number
+		empName:string
+		empDesignation:string
+		empSalary:number
+		empIsPermenant:boolean
+5. display the above values in app.component.html
+	<h1> Employee Management </h1>
+	<div>
+		<h3> No ....
+		..
+		..
+		</h3>
+	</div>
+6. put some good css
+7. run the application
+8. inside the src folder, create a new folder, components
+	cd src 
+	mkdir components	
+	cd components
+9. create a new component personaldetails
+	ng g c personalDetails
+	in the .ts file, add below variables
+		emailAddress
+		mobileNo
+		bloodGroup
+		highestEduction
+10.display the values in .html file
+11. in app.component.html
+	<app-personalDetails></app-personalDetails>
+
+12. create a new component = salaryDetails
+13.in the salaryDetails.component.cs file, add below properties
+	empSalary
+	empHRA
+	empTravelAllowance
+	empFoodCoupons
+14. display the above property in salaryDetails.component.html
+	<div>
+		<h3> {{ empSalary }} </h3>
+		<h3> {{ empHRA }} </h3>
+		<h3> {{ empTravelAllowance }} </h3>
+		<h3> {{ empFoodCoupons }} </h3>
+		<h3> Basic {{ (empSalary + empHRA + empTravelAllowance + empFoodCoupons) *12 }} </h3>
+		<h3> Tax(18%) {{ ((empSalary + empHRA + empTravelAllowance + empFoodCoupons) *12 ) * 0.18}} </h3>
+		<h3> CTC - {{  }} </h3>
+		
+	</div>
+
+15. Display this component in app.component.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

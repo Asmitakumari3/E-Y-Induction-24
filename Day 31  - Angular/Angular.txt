@@ -1,0 +1,59 @@
+				Angular
+--This is a  client side web development framework (.net was for server side development)
+--This is a framework by Google
+--Development is done using
+	HTML
+	CSS
+	Typescript
+--Best framework for createing SPA application 
+	SPA - Single Paged Application 
+		SPA will download all the pages, files, images on the clients browser 
+		and when you want to browse it again it will not go to server, like an app
+
+		only go back to the server to refresh the data
+
+	This saves a lot of communication (round-trip between client and server)
+
+	in todays world this is the need, only the urls and rest of the things are centralized
+	(refere the image file)
+--Softwares
+	it runs on NodeJS, it needs nodejS to be running
+	we can use any IDE for development, visual studio, eclipse, or Visual studio code							(this is lightweight and mostly used)
+
+	
+
+-- it can be used inside server side web development technologies as well like inside ASP.Net MVC	
+
+-- Angular Development needs good understanding on below topics 
+		Component development (HTML + CSS + Typescript)
+			Pipes
+			Directives
+		REST API Calls (HttpClient) 
+		Routing (SPA)
+			This are 80% of angular
+
+--Angular is based on Component Development Methadology - everything is a component
+		component (HTML+CSS+TS+.spec.ts) is like a plug in or extention on browser
+			which can be removed or added anytime you want to 
+
+
+in .ts file
+			we write, variables, functions, constructor, this is a class file
+in .html file, we write HTML, to display varaiables and call methods written in .ts file
+in .css file, we write css which gets applied on HTML
+in .spec.ts - we write test cases (unit test)
+	
+
+
+
+
+
+
+		
+	
+
+
+
+
+
+

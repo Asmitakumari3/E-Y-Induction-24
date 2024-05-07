@@ -1,0 +1,37 @@
+
+1. in the src folder, we created a new folder component
+2. in the component folder, we created a new component - contact
+	ng g c --name contact
+3. in the contact.component.ts file we create 3 variables
+	 phoneNo:number = 909090;    
+    email:string = 'someone@myorg.com';
+    customerCare:number = 1800180098989494;
+4. in the contact.component.ts,we are trying to display the variables
+	<div>
+<h3> Phone : {{ phoneNo }} </h3>
+<h3> Email : {{ email }} </h3>
+<h3> Customer Care : {{ customerCare }} </h3>
+</div>
+
+
+5. in the .css file we added the css
+	div{
+    background-color: orangered;
+
+}
+h1{
+    color: brown;
+}
+
+6. in the app.component.html we injected/called contact component
+	
+ <app-contact></app-contact>
+
+
+
+
+
+
+
+
+
