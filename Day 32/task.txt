@@ -1,0 +1,28 @@
+close all the current projects
+1. Create a new angularSPA application - shoppingAPP_ngSPA
+2. in the app folder, create a folder, components
+3. add below components
+	productList
+	topSellingProducts
+	Category (child components as below, in a folder subcategory)
+		Electronics
+		Gadgets
+		Sports
+		SmartPhones
+	Cloths(child components as below, in a folder gender)
+			Male
+			Female
+			Kids
+	-------------------------------------------------
+4. Configure routing and test the application functionality
+5. in the productList component  create a json object array of product with below properties
+			{pId, pName, pCategory, pPrice, pIsInStock} (have 10 products, show it on 
+								  productlist page)-y
+6. add component - Admin
+		it will have 4 components
+			view orders
+			AddProduct
+			DeleteProduct
+			EditProduct
+
+	

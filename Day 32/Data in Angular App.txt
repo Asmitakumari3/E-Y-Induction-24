@@ -1,0 +1,48 @@
+					Data in Angular App
+
+		Angular understands 4 categories of data
+		
+		a. primitive data
+			empName:string = "Nikhil"
+			empNo:number = 30;
+		b. primitive data array
+			friends:string[] = ['Nikhil','Akshay','Jayesh','Jitesh']
+		c. json object
+			{
+ 			 "userId": 1,
+    			 "id": 3,
+  			 "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+ 			 "body": "et iusto sed quo ut ad"						
+		         }
+		d. json object array
+			[
+				{},{},{},{}
+			]
+			https://jsonplaceholder.typicode.com/posts
+		
+
+	we use directives to iterate through the array data
+		*ngFor="let f of friends"
+
+		Angular has a concept called directives
+			*ngFor
+			*ngIf
+			*ngSwitch
+
+-------------------------------
+	1. create a new Angular app - angular_Data
+	2. in the app folder, create a new folder, components
+	3. create a new component friends
+
+
+
+
+
+
+
+
+
+
+
+
+

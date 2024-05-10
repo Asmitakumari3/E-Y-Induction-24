@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = empAPP_EF
-build_property.ProjectDir = C:\Users\Administrator\Desktop\Day 19\empAPP_EF\empAPP_EF\
+build_property.ProjectDir = C:\Users\nikhi\OneDrive\Desktop\EY 24\E-Y-Induction-24\Day 19\empAPP_EF\empAPP_EF\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
