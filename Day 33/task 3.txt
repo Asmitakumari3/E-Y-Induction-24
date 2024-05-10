@@ -1,0 +1,49 @@
+Task : 30 mins - till 1:30
+	1. create a new angular application - ngStockApp
+
+	2. in the app folder create a new folder component -
+		create component - stockDetails
+	
+	3. add json object array with below details
+
+	stockId
+	stockName
+	stockCategory
+	stockBuyQty
+	stockBuyPrice
+	stockCurrentPrice
+
+	
+	add 10 stocks and display it
+
+	4. display the details in a table
+
+	create pipes as below 
+		1. investmentvalue (this will return stockBuyQty * stockBuyPrice)
+		2. currentValue (this will return stockBuyQty * stockCurrentPrice)
+		3. investment status ( if investmentValue is more than currentValue 		
+						return loss
+					else return profit)
+	use pipes as a new column in the table and test the output
+
+
+
+
+		post lunch - Task on pipes - details also pasted in chat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

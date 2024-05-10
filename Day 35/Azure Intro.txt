@@ -1,0 +1,174 @@
+1. What is Azure ?
+	Azure is a cloud platform from Microsoft
+
+
+	cloud platform is nothing but all the 
+		softwares
+		hardware	
+		services
+		servers
+
+		installed in big offices(building) - big complex made up of 50's of building and floors
+		called as data center
+
+		and you can connect with this service, install your software, 
+		1.have Ur database installed there
+		2.have your websites hosted there
+		3. have your solutions, like AI, ML, data tools, IOT, storage, harddisk, high ram, processors
+				running on this data centers
+
+
+		Advantages
+		-you do not need to buy heavy hardwares	
+			high ram (10tb)
+			high processors
+			super high internet connection
+			security
+			cooling systems
+			
+		scaleing
+			vertical scale
+			horizontal scale
+
+
+			for scaling - it needs very high investment	
+					they need space for the server
+					they need to supply electicity to new server
+					cooling system to new server
+					maintainance will be needed
+		company invested a lot for Diwali, and they were able to serve customers 4000 per min
+
+		-------------------
+		for companies / startups instead on investing - rent it from Microsoft, aws, gcp etc..
+			they call it as cloud
+
+			on Microsoft there are 200+ services
+			VM (virtual machine)
+			storage
+			databases (50+ types of databases)
+			App services (host any type of web applications
+					MVC, WebAPI, mobile apps, angular, react, node, etc....)
+			event based services like
+				servicebus,event hub, logic apps etc...
+
+
+		you can connect them, by buying a subscription, and start using the service next moment
+		To buy a subscription, you need to attach your credit card and you are ready to go
+
+		for training purpose, Microsoft isses passes, to learn and use resources (50$)
+			you can learn to create resources, test them, check them and then delete them
+			explore azure platform
+
+
+
+			On Cloud the services are of 3 types
+			PASS - PLATFORM - USE THEIR HARDWARE, PRE INSTALLED SOFTWARE
+					VM, choose ram, storage, processor etc. and ins
+					tall ur own software (100)
+			SASS - Software as a service 
+					eg. SQL Server (they are running the server,
+						you can create the data)
+					this is a like a shared server
+					you will just pay for database, creation (40)
+					
+			IAAS - infrastrure
+				only hardware - you can do what ever you want on that hardware
+			store backup
+			create your own services etc..
+			rent that hardware to others
+
+1. we will go ahead with our first service
+		SQL
+			can be created in 3 ways
+
+			1. New SQL Server instance - create your own server, 		
+				create 50+ databases on this server, take backup, have your own 					security, create more users, roles etc..get more control
+			2. create sql database - use a server by Microsoft, you will get less 				 control on the server - cheaper than above 1
+			3. create virtual machine, install server inside it and use it
+				more control
+				if you have many service to use
+				APP service
+				Data related
+				reporting
+				analytics
+				sql server
+				oracle
+			buy your own vm and install all inside machine and manage from 1 place
+
+		for your projects
+		you will have 1 server per project
+		(use the 50$ very wisely, follow instructions, Microsoft will not issue new pass or balance if you loose the $)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+			
+
+
+	

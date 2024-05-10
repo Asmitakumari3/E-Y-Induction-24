@@ -1,0 +1,230 @@
+Angular
+	SPA - routing
+	components
+	pipes
+	services
+
+
+	1. services are used for communication between components
+	2. Store data and functions in a central location, so that it can be used by multiple components
+		eg.in an shopping
+		KidsComponent
+		MaleComponent
+		FemaleComponent
+		OffersComponent
+
+		all this component will need some functionality in common 
+		i.e calculate discount / apply discount coupoun
+
+		they will need to work with data which will come from rest api service
+		Thus they all need communication with REST Api
+
+		in a service class, we can make a call and get all the data in 1 shot
+		and then distribute them to various components
+		This will make only 1 interaction with server, rather than 4 interactions for 4 components
+
+
+
+-----------------------------------------------------cd 
+1. create a new application - ngServiceDemo
+2. in the app folder, create new below folders
+		components
+		pipes
+		services
+3. in the component folder, create 2 components
+	MaleProducts
+	FemaleProducts
+4. configure them in route.ts
+5. add the router links
+
+6. create a new service - greetser in service folder
+	ng g s greetser
+7. in greetser.ts - add a variable and a function
+		
+  greetMessage:string = "Hello I am a message from Service";
+  sayHello()
+  {
+    return "Hello From Service Function";
+  }
+8. we now want to test them in both the componets we have
+
+9. in the maleproducts.component.ts file
+
+--------------------
+	make rest api calls
+
+1. create a new applicatin ngRESTCalls
+2. create below folder in app
+	component
+		add a component products
+	service
+		add a service productsset
+		
+
+3. we will get the data from 
+	https://fakestoreapi.com/products
+
+4. in the service class, we will use HttpClient to get the data
+	a. create a variable of HttpClient type and inject it in constructor
+		
+		_http:HttpClient;
+
+  		constructor(httpREf:HttpClient){
+    			this._http = httpREf;
+  		 }
+
+		this will import HttpClient on top of the file
+		import { HttpClient } from '@angular/common/http';
+
+5. let us make the call
+	a. create a variable 
+	b. write a function to make the call
+
+	productsData:any;
+
+  	 getProductsData()
+   	{
+    		let url = 'https://fakestoreapi.com/products';
+
+     		this._http.get(url).subscribe( data =>{
+    	        this.productsData = data;
+      })
+
+   }
+
+6. in app.config.ts we have include provideHttpClient() in the provide section
+		providers: [provideRouter(routes),provideHttpClient()] 
+		line 8
+
+7. we need to include in product.component.ts - a new vaiable of service class with DI and CommonModule in import
+
+	
+    _prodService:ProductsserService;
+
+    constructor(prodSerREF:ProductsserService)
+    {
+      this._prodService = prodSerREF;
+    }
+
+
+8. let us display the data, we will call the function on click of the button (last example we called the function inside the constructor)
+
+	in product.component.html
+
+	<h2> Display Products </h2>
+
+
+
+<button (click)="_prodService.getProductsData()" > Get Data </button>
+
+
+<table border="1">
+    <tr *ngFor="let p of _prodService.productsData"> 
+        <td> {{ p.id }} </td>
+        <td> {{ p.title }} </td>
+        <td> {{ p.price }} </td>
+        <td> {{ p.description }} </td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

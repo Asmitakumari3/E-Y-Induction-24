@@ -1,0 +1,24 @@
+1. Take a tea break (11:45 - 12:05)
+2. Come back from the break 
+	a. create a new SQL Server instance on ur account
+	b. connect to that sql server from ssms
+	c. create a new database yourname_bankingDB (eg.nikhil_bankingDB)
+	d. create 2 tables jt`43e22   b b bhbb v v  gv7
+		branchInfo(3 records)
+		accountsInfo (6 records)
+	e. in visual studio create a new WebAPI project
+	f. add ef core packages
+	g. download poco classes
+	h. create controllers for both the tables
+	I. test insert, update, delete, get methods of WebAPI, which is coming from sql server database running on cloud
+	j. create a angular application SPA ngBanking
+	h. create folders components and services and pipes in app folder
+	k. create service to make api call to get all accounts from api in the previous 		step
+	l. display the data in table on a component
+	
+
+----------------
+	This activity is 40% of your project
+
+	m.if you finish this well, I will share you the project today itself, create teams
+	so you can mentally start to think and visualize about your project 

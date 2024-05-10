@@ -1,0 +1,53 @@
+Pipes -- this are used for data formatting
+	builtin pipes like, 
+		uppercase	
+		lowercase
+		currency (eg. salary 3000 -can be displayed as  3000$ or 3000USD - any currency)
+		..
+		..
+		..
+------------------------------------------------------------------------------------------------
+Pipes is the most simple topic in Angular
+
+---------------------
+Lets see an example
+
+	1. create a new angular app in day 33- pipesDemo
+	2. in the app folder - create a new component - employee
+	3. add below data to employee
+		empNo
+		empName
+		empSalary
+		empDesignation
+		empIsPermenant
+	4.display the same on employee.component.html
+	5. in the .ts file 
+		create an JSON array of employee - add 10 employees
+		[{empNo
+		empName
+		empSalary
+		empDesignation
+		empIsPermenant},
+		{
+		empNo
+		empName
+		empSalary
+		empDesignation
+		empIsPermenant},{}]
+		display them in a table in .html	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+

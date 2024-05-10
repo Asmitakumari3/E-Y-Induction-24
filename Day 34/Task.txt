@@ -1,0 +1,7 @@
+1. Open your rest api project - bankingAPI - which is using entity framework to get data from database
+	and returning all the accounts info
+2. create a new angular application ngBankingAPP
+
+3. in the app, create folders in app, components and services
+
+4. make a get call to accountsinfo api and display the data in a table

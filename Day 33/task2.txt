@@ -1,0 +1,25 @@
+1. create a new application ngEmpManagement
+2. in the app folder create folders
+	components
+	pipes
+3. in component create emp Json array
+	empNo,empName,empCity, empHighestEducation 
+	put 10 values
+4. we need to display below
+	basicSalary -- based on pipe (if city is Mumbai, return 8000
+					if city is Pune, return 6000
+					if city is Kolkatta, return 12000)
+5. show calculated values (pipe is not needed for this)
+	HRA (10% of basic) per month
+	Food Coupns - 600 per month
+	Travel - 800 per month
+	Gross (Basic + HRA + Food + Travel)
+	Tax - 10% of gross
+	Net = gross - tax
+display the data on page
+	
+	
+
+					
+				      
+	
