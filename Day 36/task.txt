@@ -1,0 +1,7 @@
+1. in the storage account, create a new container
+	images
+2. in the database, create a new table, products
+	pid, pname,pcategory,pimage(store the image url)
+3. in the existing WebAPI, create a new controller based on the above table
+4. test the WebAPI controller
+5. in the angular application, display the product in table along with image

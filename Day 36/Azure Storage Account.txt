@@ -1,0 +1,20 @@
+Azure Storage Account
+	as the name says - this is for storage
+		It has 4 services inside the account
+			a. blob (big large objects) - heavy files, folders, images, videos etcc...
+			b. file share (shared folder over internet)
+			c. Queue (FIFO methods for processing request)
+			d. Table (just create a table, no need for database or server)
+				suitable for a single table, static data, no relationship
+					This will accept, all kind of data
+				sql, NoSQL,files,folders etc... more like a key and a value pair
+---------------
+	You have 2 types of storage account
+		a. Hot (when you have recent data and you will want to use it again and again,
+				perform crud operations)
+		b. Cold
+			for old data, accessed 1cs or 2wc a year, like insurance data
+
+---------------
+		you have a tool which you use to work with storage account
+			Azure Storage Explorer

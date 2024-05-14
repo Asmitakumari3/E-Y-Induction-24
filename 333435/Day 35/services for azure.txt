@@ -1,0 +1,12 @@
+1. SQL Server for database - 1 for 1 project
+2. App Services - this service is used to host web contents
+	a. WebAPI - will be hosted here
+	b. Angular app - will be hosted here
+
+3. Let us learn 2 services 
+	a. Virtual machines
+		how to create and how to access the same, connect to it
+	b. App service - host a web api here
+
+4. You will have, images, logos, advt, videos (if you plan any of this)
+	it will come from storage account service (harddisk)
