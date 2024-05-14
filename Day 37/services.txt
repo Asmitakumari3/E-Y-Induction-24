@@ -1,0 +1,20 @@
+1. Virtual Machines
+2. SQL Server and databases
+3. App Services
+4. Storage Account
+5. CosmoDB (service - which integrates 5 open source services)
+	a. MongoDB
+	b. PostGres
+	c. Queues
+	d. GRAPHQL (create graphs)
+	----------------
+
+		SQL Server
+		Oracle
+		DB2
+		MySQL 
+			They are based on RDBMS - tables, relationships, sql language 
+
+	NoSQL databases (eg.MongoDB) 
+		document model
+		store the json records
